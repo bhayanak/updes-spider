@@ -20,7 +20,9 @@ actually contains data before accepting it, and can **resume** a partial run.
 
 ```
 updes/                                   # --out (default: updes)
-  2025_34_FARRUKHABAD/                   # <year>_<distcode>_<districtname>
+  2025_34_FARRUKHABAD/                    # <year>_<distcode>_<districtname>
+    all-tables.html                      # ALL tables on one searchable page
+    all-tables.pdf                       # ALL tables as a searchable PDF
     website/
       index.html                         # sectors landing page (open this)
       sectors/01_..._.html               # one page per sector
@@ -35,19 +37,39 @@ updes/                                   # --out (default: updes)
 Tables with multiple sub-tables (e.g. Table 2A / 2B) become multiple sheets in
 one workbook.
 
+### Searching across all tables
+
+Opening each table to look for a value is tedious, so every run also builds two
+whole-district search surfaces from the data on disk:
+
+- **`all-tables.html`** — one self-contained page with *every* table inline.
+  Type in the search box at the top to instantly filter to the tables that
+  contain your keyword, or just use the browser's Ctrl+F / Cmd+F. A sticky
+  contents panel links to each table. The mirror's `index.html` also gets a
+  "Search all tables" banner linking here.
+- **`all-tables.pdf`** — the same content as a fully text-searchable PDF.
+
+Because these are rebuilt from the saved table HTML, a plain
+`python -m updes_spider --resume` will fetch anything missing and then
+regenerate both the combined page and the PDF.
+
 ## Setup
 
 ```bash
-For linux:
+For Windows:
 python3 -m venv .venv
-.\.venv\bin\activate.bat
+.\.venv\Scripts\activate.bat
 pip install -r requirements.txt
 
 Get data:
-python -m updes_spider --year 2025 --dist 23  --delay 1
+python -m updes_spider --year 2025 --dist 23
+
+if something failed and want again(Tries only what failed):
+python -m updes_spider --year 2025 --dist 23
 ```
 
 ```bash
+For Linux:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -82,7 +104,20 @@ Useful options:
 | `--sectors` | Only sectors whose name contains these words | all |
 | `--resume` / `--no-resume` | Skip / re-fetch already-saved tables | resume on |
 | `--verify-tls` | Enable TLS verification (site chain is usually broken) | off |
+| `--no-combine` | Skip building the combined page + PDF | off |
+| `--no-pdf` | Build the combined HTML but skip the PDF | off |
+| `--pdf-engine` | `auto` / `chrome` / `weasyprint` / `wkhtmltopdf` | `auto` |
 | `-v` | Verbose logging | off |
+
+### PDF generation
+
+The PDF is rendered from `all-tables.html`. `auto` tries, in order: a headless
+Chromium-family browser (Google Chrome / Chromium / Edge / Brave — no install
+needed if you already have one), then WeasyPrint, then `wkhtmltopdf`. If none
+is available it skips the PDF and tells you to open `all-tables.html` and use
+the browser's **Print → Save as PDF** (which also produces a searchable file).
+The searchable HTML is always produced regardless.
+
 
 ### Robustness / recovering from failures
 

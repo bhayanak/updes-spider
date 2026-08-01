@@ -2,7 +2,7 @@
   "year": "2025",
   "district_code": "34",
   "district": "FARRUKHABAD",
-  "generated": "2026-08-01 12:22:16",
+  "generated": "2026-08-01 18:11:22",
   "sectors": [
     {
       "name": "General Informations",
@@ -68,8 +68,7 @@
           "url": "/spiderreports/gettable6Report.action",
           "excel": "excel/02_Area_and_Population/Table_6_Population_growth_of_rural_population_in.xlsx",
           "html": "tables/table6.html",
-          "status": "ok",
-          "rows": 15
+          "status": "skipped"
         },
         {
           "table_id": "7",
@@ -77,8 +76,7 @@
           "url": "/spiderreports/gettable7Report.action",
           "excel": "excel/02_Area_and_Population/Table_7_Block_wise_area_residential_houses_and_f.xlsx",
           "html": "tables/table7.html",
-          "status": "ok",
-          "rows": 34
+          "status": "skipped"
         },
         {
           "table_id": "8",
@@ -86,8 +84,7 @@
           "url": "/spiderreports/gettable8Report.action",
           "excel": "excel/02_Area_and_Population/Table_8_Economic_classification_of_population_bl.xlsx",
           "html": "tables/table8.html",
-          "status": "ok",
-          "rows": 15
+          "status": "skipped"
         },
         {
           "table_id": "9",
@@ -95,8 +92,7 @@
           "url": "/spiderreports/gettable9Report.action",
           "excel": "excel/02_Area_and_Population/Table_9_Number_of_inhabited_villages_per_decade.xlsx",
           "html": "tables/table9.html",
-          "status": "ok",
-          "rows": 2
+          "status": "skipped"
         },
         {
           "table_id": "10",
@@ -104,8 +100,7 @@
           "url": "/spiderreports/gettable10Report.action",
           "excel": "excel/02_Area_and_Population/Table_10_Population_according_to_mother_tongue_in.xlsx",
           "html": "tables/table10.html",
-          "status": "ok",
-          "rows": 9
+          "status": "skipped"
         },
         {
           "table_id": "11",
@@ -113,8 +108,7 @@
           "url": "/spiderreports/gettable11Report.action",
           "excel": "excel/02_Area_and_Population/Table_11_Population_by_major_religion_in_the_dist.xlsx",
           "html": "tables/table11.html",
-          "status": "ok",
-          "rows": 13
+          "status": "skipped"
         },
         {
           "table_id": "12",
@@ -122,8 +116,7 @@
           "url": "/spiderreports/gettable12Report.action",
           "excel": "excel/02_Area_and_Population/Table_12_Population_by_age_group_in_the_district.xlsx",
           "html": "tables/table12.html",
-          "status": "ok",
-          "rows": 18
+          "status": "skipped"
         },
         {
           "table_id": "13",
@@ -131,8 +124,7 @@
           "url": "/spiderreports/gettable13Report.action",
           "excel": "excel/02_Area_and_Population/Table_13_Number_of_womenmen_in_the_district_by_ag.xlsx",
           "html": "tables/table13.html",
-          "status": "ok",
-          "rows": 18
+          "status": "skipped"
         },
         {
           "table_id": "14",
@@ -140,8 +132,7 @@
           "url": "/spiderreports/gettable14Report.action",
           "excel": "excel/02_Area_and_Population/Table_14_Number_of_womenmen_in_the_district_by_ag.xlsx",
           "html": "tables/table14.html",
-          "status": "ok",
-          "rows": 39
+          "status": "skipped"
         },
         {
           "table_id": "15",
@@ -149,8 +140,7 @@
           "url": "/spiderreports/gettable15Report.action",
           "excel": "excel/02_Area_and_Population/Table_15_Development_block_wise_literate_people_a.xlsx",
           "html": "tables/table15.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         },
         {
           "table_id": "16",
@@ -158,8 +148,8 @@
           "url": "/spiderreports/gettable16Report.action",
           "excel": "excel/02_Area_and_Population/Table_16_Villages_classified_according_to_block_w.xlsx",
           "html": "tables/table16.html",
-          "status": "failed",
-          "error": "table 16: exhausted 6 attempts"
+          "status": "ok",
+          "rows": 13
         }
       ]
     },
@@ -173,8 +163,7 @@
           "url": "/spiderreports/gettable17Report.action",
           "excel": "excel/03_Agriculture/Table_17_Block_wise_land_use_in_the_district_in_h.xlsx",
           "html": "tables/table17.html",
-          "status": "ok",
-          "rows": 31
+          "status": "skipped"
         },
         {
           "table_id": "18",
@@ -182,8 +171,7 @@
           "url": "/spiderreports/gettable18Report.action",
           "excel": "excel/03_Agriculture/Table_18_Actual_irrigated_area_in_hectares_as_per.xlsx",
           "html": "tables/table18.html",
-          "status": "ok",
-          "rows": 18
+          "status": "skipped"
         },
         {
           "table_id": "19",
@@ -191,8 +179,7 @@
           "url": "/spiderreports/gettable19Report.action",
           "excel": "excel/03_Agriculture/Table_19_Area_under_main_crops_block_wise_in_the.xlsx",
           "html": "tables/table19.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         },
         {
           "table_id": "20",
@@ -200,8 +187,7 @@
           "url": "/spiderreports/gettable20Report.action",
           "excel": "excel/03_Agriculture/Table_20_The_average_yield_of_crops_in_the_distri.xlsx",
           "html": "tables/table20.html",
-          "status": "ok",
-          "rows": 55
+          "status": "skipped"
         },
         {
           "table_id": "21",
@@ -209,8 +195,7 @@
           "url": "/spiderreports/gettable21Report.action",
           "excel": "excel/03_Agriculture/Table_21_Production_of_crops_in_the_district_MT.xlsx",
           "html": "tables/table21.html",
-          "status": "ok",
-          "rows": 60
+          "status": "skipped"
         },
         {
           "table_id": "22",
@@ -218,8 +203,7 @@
           "url": "/spiderreports/gettable22Report.action",
           "excel": "excel/03_Agriculture/Table_22_Value_of_crop_production_in_the_district.xlsx",
           "html": "tables/table22.html",
-          "status": "ok",
-          "rows": 136
+          "status": "skipped"
         },
         {
           "table_id": "23",
@@ -227,8 +211,7 @@
           "url": "/spiderreports/gettable23Report.action",
           "excel": "excel/03_Agriculture/Table_23_Status_of_irrigation_facilities_and_sour.xlsx",
           "html": "tables/table23.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         },
         {
           "table_id": "24",
@@ -236,8 +219,7 @@
           "url": "/spiderreports/gettable24Report.action",
           "excel": "excel/03_Agriculture/Table_24_Size_class_wise_number_and_area_of_opera.xlsx",
           "html": "tables/table24.html",
-          "status": "ok",
-          "rows": 30
+          "status": "skipped"
         },
         {
           "table_id": "25",
@@ -245,8 +227,7 @@
           "url": "/spiderreports/gettable25Report.action",
           "excel": "excel/03_Agriculture/Table_25_Production_of_divisional_horticulture_cr.xlsx",
           "html": "tables/table25.html",
-          "status": "ok",
-          "rows": 50
+          "status": "skipped"
         },
         {
           "table_id": "26",
@@ -254,8 +235,7 @@
           "url": "/spiderreports/gettable26Report.action",
           "excel": "excel/03_Agriculture/Table_26_Block_wise_fertilizer_distribution_in_th.xlsx",
           "html": "tables/table26.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         },
         {
           "table_id": "27",
@@ -263,8 +243,7 @@
           "url": "/spiderreports/gettable27Report.action",
           "excel": "excel/03_Agriculture/Table_27_Block-wise_Some_Main_Facilities_Related.xlsx",
           "html": "tables/table27.html",
-          "status": "ok",
-          "rows": 68
+          "status": "skipped"
         },
         {
           "table_id": "28",
@@ -272,8 +251,7 @@
           "url": "/spiderreports/gettable28Report.action",
           "excel": "excel/03_Agriculture/Table_28_Number_and_capacity_of_foodgrain_stores.xlsx",
           "html": "tables/table28.html",
-          "status": "ok",
-          "rows": 10
+          "status": "skipped"
         }
       ]
     },
@@ -287,8 +265,7 @@
           "url": "/spiderreports/gettable29Report.action",
           "excel": "excel/04_Animal_Husbandry_and_Fisheries/Table_29_Block_wise_number_of_livestock_poultry_e.xlsx",
           "html": "tables/table29.html",
-          "status": "ok",
-          "rows": 51
+          "status": "skipped"
         },
         {
           "table_id": "30",
@@ -296,8 +273,7 @@
           "url": "/spiderreports/gettable30Report.action",
           "excel": "excel/04_Animal_Husbandry_and_Fisheries/Table_30_Block_wise_veterinary_and_other_faciliti.xlsx",
           "html": "tables/table30.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         },
         {
           "table_id": "31",
@@ -305,8 +281,7 @@
           "url": "/spiderreports/gettable31Report.action",
           "excel": "excel/04_Animal_Husbandry_and_Fisheries/Table_31_Fisheries.xlsx",
           "html": "tables/table31.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         }
       ]
     },
@@ -320,8 +295,7 @@
           "url": "/spiderreports/gettable32Report.action",
           "excel": "excel/05_Co-operatives/Table_32_Block_wise_primary_agricultural_credit_c.xlsx",
           "html": "tables/table32.html",
-          "status": "ok",
-          "rows": 29
+          "status": "skipped"
         },
         {
           "table_id": "33",
@@ -329,8 +303,7 @@
           "url": "/spiderreports/gettable33Report.action",
           "excel": "excel/05_Co-operatives/Table_33_Other_cooperative_societies_in_the_distr.xlsx",
           "html": "tables/table33.html",
-          "status": "ok",
-          "rows": 37
+          "status": "skipped"
         },
         {
           "table_id": "34",
@@ -338,8 +311,7 @@
           "url": "/spiderreports/gettable34Report.action",
           "excel": "excel/05_Co-operatives/Table_34_Cooperative_Bank_and_Cooperative_Agricul.xlsx",
           "html": "tables/table34.html",
-          "status": "ok",
-          "rows": 20
+          "status": "skipped"
         }
       ]
     },
@@ -353,8 +325,7 @@
           "url": "/spiderreports/gettable35Report.action",
           "excel": "excel/06_Industry/Table_35_Progress_of_industrialization_in_the_dis.xlsx",
           "html": "tables/table35.html",
-          "status": "ok",
-          "rows": 10
+          "status": "skipped"
         },
         {
           "table_id": "36",
@@ -362,8 +333,7 @@
           "url": "/spiderreports/gettable36Report.action",
           "excel": "excel/06_Industry/Table_36_Number_of_rural_and_small_scale_industri.xlsx",
           "html": "tables/table36.html",
-          "status": "ok",
-          "rows": 20
+          "status": "skipped"
         },
         {
           "table_id": "37",
@@ -371,8 +341,7 @@
           "url": "/spiderreports/gettable37Report.action",
           "excel": "excel/06_Industry/Table_37_From_the_year_2001_to_2003_Table_361_Fac.xlsx",
           "html": "tables/table37.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         },
         {
           "table_id": "38",
@@ -380,8 +349,7 @@
           "url": "/spiderreports/gettable38Report.action",
           "excel": "excel/06_Industry/Table_38_Till_the_year_2003_Table_37_Industrial_E.xlsx",
           "html": "tables/table38.html",
-          "status": "ok",
-          "rows": 11
+          "status": "skipped"
         }
       ]
     },
@@ -433,8 +401,7 @@
           "url": "/spiderreports/gettable43Report.action",
           "excel": "excel/08_Public_Health_and_Family_Welfare/Table_43_Allopathic_hospital_and_dispensary_in_th.xlsx",
           "html": "tables/table43.html",
-          "status": "ok",
-          "rows": 33
+          "status": "skipped"
         },
         {
           "table_id": "44",
@@ -442,8 +409,7 @@
           "url": "/spiderreports/gettable44Report.action",
           "excel": "excel/08_Public_Health_and_Family_Welfare/Table_44_Block_wise_allopathic_medical_service_in.xlsx",
           "html": "tables/table44.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         },
         {
           "table_id": "45",
@@ -451,8 +417,7 @@
           "url": "/spiderreports/gettable45Report.action",
           "excel": "excel/08_Public_Health_and_Family_Welfare/Table_45_Block_wise_Ayurvedic_Unani_and_Homeopath.xlsx",
           "html": "tables/table45.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         },
         {
           "table_id": "46",
@@ -460,8 +425,7 @@
           "url": "/spiderreports/gettable46Report.action",
           "excel": "excel/08_Public_Health_and_Family_Welfare/Table_46_Block_wise_family_and_mother_child_welfa.xlsx",
           "html": "tables/table46.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         }
       ]
     },
@@ -475,8 +439,7 @@
           "url": "/spiderreports/gettable47Report.action",
           "excel": "excel/09_Electricity/Table_47_Electricity_consumption_in_various_works.xlsx",
           "html": "tables/table47.html",
-          "status": "ok",
-          "rows": 11
+          "status": "skipped"
         },
         {
           "table_id": "48",
@@ -484,8 +447,7 @@
           "url": "/spiderreports/gettable48Report.action",
           "excel": "excel/09_Electricity/Table_48_Block_wise_number_of_electricity_connect.xlsx",
           "html": "tables/table48.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         }
       ]
     },
@@ -499,8 +461,7 @@
           "url": "/spiderreports/gettable49Report.action",
           "excel": "excel/10_Transportation_and_Communication/Table_49_Length_of_paved_roads_in_the_district.xlsx",
           "html": "tables/table49.html",
-          "status": "ok",
-          "rows": 29
+          "status": "skipped"
         },
         {
           "table_id": "50",
@@ -508,8 +469,7 @@
           "url": "/spiderreports/gettable50Report.action",
           "excel": "excel/10_Transportation_and_Communication/Table_50_Length_of_paved_roads_in_Km_block_wise_i.xlsx",
           "html": "tables/table50.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         },
         {
           "table_id": "51",
@@ -517,8 +477,7 @@
           "url": "/spiderreports/gettable51Report.action",
           "excel": "excel/10_Transportation_and_Communication/Table_51_Block_wise_transport_and_communication_s.xlsx",
           "html": "tables/table51.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         }
       ]
     },
@@ -532,8 +491,7 @@
           "url": "/spiderreports/gettable52Report.action",
           "excel": "excel/11_Institutional_Finance/Table_52_Number_of_scheduled_commercial_bank_and.xlsx",
           "html": "tables/table52.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         },
         {
           "table_id": "53",
@@ -541,8 +499,7 @@
           "url": "/spiderreports/gettable53Report.action",
           "excel": "excel/11_Institutional_Finance/Table_53_Deposit_amount_and_loan_disbursement_in.xlsx",
           "html": "tables/table53.html",
-          "status": "ok",
-          "rows": 13
+          "status": "skipped"
         }
       ]
     },
@@ -556,8 +513,7 @@
           "url": "/spiderreports/gettable54Report.action",
           "excel": "excel/12_Water_Supply/Table_54_Status_of_drinking_water_facility_in_vil.xlsx",
           "html": "tables/table54.html",
-          "status": "ok",
-          "rows": 15
+          "status": "skipped"
         }
       ]
     },
@@ -571,8 +527,7 @@
           "url": "/spiderreports/gettable55Report.action",
           "excel": "excel/13_Panchayti_Raj/Table_55_Block-wise_Nyaya_Panchayat_Gram_Panchaya.xlsx",
           "html": "tables/table55.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         },
         {
           "table_id": "56",
@@ -580,8 +535,7 @@
           "url": "/spiderreports/gettable56Report.action",
           "excel": "excel/13_Panchayti_Raj/Table_56_Income_Of_Gram_Panchayat.xlsx",
           "html": "tables/table56.html",
-          "status": "ok",
-          "rows": 14
+          "status": "skipped"
         }
       ]
     },
@@ -595,8 +549,7 @@
           "url": "/spiderreports/gettable57Report.action",
           "excel": "excel/14_Price/Table_57_Monthly_rural_retail_price_in_the_distri.xlsx",
           "html": "tables/table57.html",
-          "status": "ok",
-          "rows": 31
+          "status": "skipped"
         },
         {
           "table_id": "58",
@@ -604,8 +557,7 @@
           "url": "/spiderreports/gettable58Report.action",
           "excel": "excel/14_Price/Table_58_Monthly_Urban_Retail_Price_From_District.xlsx",
           "html": "tables/table58.html",
-          "status": "ok",
-          "rows": 31
+          "status": "skipped"
         }
       ]
     },
@@ -619,8 +571,7 @@
           "url": "/spiderreports/gettable59Report.action",
           "excel": "excel/15_Miscellaneous/Table_59_Statistics_of_employees_in_the_district.xlsx",
           "html": "tables/table59.html",
-          "status": "ok",
-          "rows": 10
+          "status": "skipped"
         },
         {
           "table_id": "60",
@@ -628,8 +579,7 @@
           "url": "/spiderreports/gettable60Report.action",
           "excel": "excel/15_Miscellaneous/Table_60_Employment_status_in_the_district.xlsx",
           "html": "tables/table60.html",
-          "status": "ok",
-          "rows": 10
+          "status": "skipped"
         },
         {
           "table_id": "61",
@@ -637,8 +587,7 @@
           "url": "/spiderreports/gettable61Report.action",
           "excel": "excel/15_Miscellaneous/Table_61_Status_of_various_skill_training_program.xlsx",
           "html": "tables/table61.html",
-          "status": "ok",
-          "rows": 5
+          "status": "skipped"
         },
         {
           "table_id": "62",
@@ -646,8 +595,7 @@
           "url": "/spiderreports/gettable62Report.action",
           "excel": "excel/15_Miscellaneous/Table_62_Scholarships_for_General_Category_Other.xlsx",
           "html": "tables/table62.html",
-          "status": "ok",
-          "rows": 17
+          "status": "skipped"
         }
       ]
     },
@@ -661,8 +609,7 @@
           "url": "/spiderreports/gettable63Report.action",
           "excel": "excel/16_Facilities_Available_In_the_Urban_Area/Table_63_Number_of_facilities_available_in_urban.xlsx",
           "html": "tables/table63.html",
-          "status": "ok",
-          "rows": 178
+          "status": "skipped"
         }
       ]
     },
@@ -676,8 +623,7 @@
           "url": "/spiderreports/gettable64Report.action",
           "excel": "excel/17_Details_of_villages_according_to_distance_from_various_socia/Table_64_Details_of_villages_according_to_distanc.xlsx",
           "html": "tables/table64.html",
-          "status": "ok",
-          "rows": 390
+          "status": "skipped"
         }
       ]
     },
@@ -691,8 +637,7 @@
           "url": "/spiderreports/gettable65Report.action",
           "excel": "excel/18_Guest_House_and_Printing_Press/Table_65_Till_the_year_2003_Development_blocks_ca.xlsx",
           "html": "tables/table65.html",
-          "status": "ok",
-          "rows": 13
+          "status": "skipped"
         },
         {
           "table_id": "66",
@@ -700,8 +645,7 @@
           "url": "/spiderreports/gettable66Report.action",
           "excel": "excel/18_Guest_House_and_Printing_Press/Table_66_Till_the_year_2003_Number_of_rest_houses.xlsx",
           "html": "tables/table66.html",
-          "status": "ok",
-          "rows": 7
+          "status": "skipped"
         },
         {
           "table_id": "67",
@@ -709,8 +653,7 @@
           "url": "/spiderreports/gettable67Report.action",
           "excel": "excel/18_Guest_House_and_Printing_Press/Table_67_Till_the_year_2003_Number_of_printing_pr.xlsx",
           "html": "tables/table67.html",
-          "status": "ok",
-          "rows": 11
+          "status": "skipped"
         }
       ]
     }

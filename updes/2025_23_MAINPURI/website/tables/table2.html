@@ -1,0 +1,869 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link href="../assets/style.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/tbl.js" type="text/javascript"></script>
+<style>
+  @media print {
+    input[type="button"] {
+        display: none;
+    }
+      
+    /*   td, th {
+    width: auto;
+    word-break: break-word;
+}  */
+
+
+</style>
+</head>
+<script type="text/javascript">
+
+ function showDiv() {
+	   document.getElementById('welcomeDiv').style.display = "block";
+	   document.getElementById('welcomeDiv1').style.display = "NONE";
+	   window.print();
+	   document.getElementById('welcomeDiv1').style.display = "block";
+	   document.getElementById('welcomeDiv').style.display = "NONE";
+	    
+	}
+
+</script>
+<body background="../assets/backgr1.gif">
+<div id="welcomeDiv1">
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td align="center">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: #4273FF;
+    text-align: center;
+    padding: 10px 2px;
+    text-decoration: none;
+}
+li a:hover {
+	color: white;
+    background-color: #42ACDF;
+}
+</style>
+<div style="height:7px;background-color:  #0e20b2"></div>
+<table align="center" bgcolor="#00FF00" class="exclude-from-export" width="100%">
+<tr>
+<td bgcolor="white" width="13%">    
+            <img alt="uplogo" height="100px" src="../assets/UPlogo1.png" width="100px"/>
+</td>
+<td align="center" bgcolor="white" width="65%">
+<span style="font-size:52px; color:#381399; font-weight: bold;">	Spider	</span>
+<br/>
+<span style="font-size:30px;color:#1372a5;">( 	Statistical Journal Internet Based Data Entry and Retrieval System	 )</span>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Hpage1.jsp"><span style="font-size:42px;">🏠</span><span style="font-size:16px;"><br/><br/>Home</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/aboutus.jsp"><span style="font-size:42px;">📰</span><span style="font-size:16px;"><br/><br/>About Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spider/contactus.jsp"><span style="font-size:42px;">📠</span><span style="font-size:16px;"><br/><br/>Contact Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<div align="right">
+<button id="toggleLang">
+                    हिंदी
+                </button>
+</div>
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Feedback.jsp" target="_blank"><span style="font-size:28px;">📝</span><span style="font-size:16px;"><br/><br/>Feedback</span></a></li></ul>
+</td>
+</tr>
+</table>
+<div style="height:7px;background-color:  #172598"></div>
+
+</td>
+</tr>
+<tr align="center"><td align="center">
+<table align="center" cellspacing="0" class="exclude-from-export" width="100%">
+<tr bgcolor="#8080ff">
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td align="center"><font color="white" size="5"><b>	General Informations	</b></font></td>
+<td align="right"><input name="answer" onclick="showDiv()" src="images/print.png" style="height: 39px; " type="image" value="Print"/></td>
+</tr>
+</table></td>
+</tr>
+<tr align="left">
+<td align="left">
+<table class="exclude-from-export" width="95%">
+<tr>
+<td><font size="4"><b>	District	</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>MAINPURI</b></font></td>
+<td></td>
+<td><font size="4"><b>	Year	</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>2024-25</b></font></td>
+</tr>
+<tr>
+<td><font size="4"><b>	Table	  2	(A)	 </b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>	Important District Indicators	</b></font></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id="welcomeDiv" style="display:none;">
+<table align="center" class="exclude-from-export" width="100%">
+<tr align="center">
+<td align="center" bgcolor="#8080ff"><font size="5"><b> 	Table	  2	(A)	  </b> <b>	Important District Indicators	 </b></font></td>
+</tr>
+</table>
+</div>
+<tr align="center">
+<td>
+<table align="center" border="1" cellspacing="0" width="100%">
+<form action="/spiderreports/getGenralNews.action" id="getGenralNews" method="post" name="getGenralNews">
+<thead>
+<input onclick="ExportToExcel('xlsx', 'तालिका 2 :.xlsx', true)" style="font-weight: bold; color: blue; margin-left: 1350px; margin-bottom: 9px;" type="button" value="Export Into Excel"/>
+<tr align="center" bgcolor="#baedb1">
+<td width="10%"><font size="4"><b>	Serial Number	</b></font></td>
+<td width="45%"><font size="4"><b>	Item	</b></font></td>
+<td width="20%"><font size="4"><b>	Unit	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>2</b></font></td>
+<td><font size="4"><b>3</b></font></td>
+</tr>
+</thead>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">1 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of urban population in total population (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">15.44 </p></td>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">2 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Density of population per sq km (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">677.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">3 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	
+	Percentage of population growth in the decade 2001-2011	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">17.02 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">4 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of SC/ST population in total population (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">19.73 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">5 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of SC people in the district in the total SC population of the state (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">20.2 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">6 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Sex ratio, number of females per thousand males (2011)	 </p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">881.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">7 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Literacy Percentage (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">7.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Total	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">75.99</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">7.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Male	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">84.53</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">7.3</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Female	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">66.3</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">8 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Average family size (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">8.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Rural	 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">6.0</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">8.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Urban	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5.75</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">8.3</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Total	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5.96</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">9 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of persons with disabilities in total population (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right"> 1.7</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">10 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of total main workers to population (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">10.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Rural	 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">22.98</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">10.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Urban	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">21.41</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">10.3</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Total	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">22.73</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">11 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of agricultural workers to total population including cultivators and agricultural labourers (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">16.88
+
+  </p></td></tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">12 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of agricultural workers to total population (2011)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">4.26 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">13 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of total main workers (2011)	 </p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">13.01</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Farmer	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">55.52</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">13.02</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Agricultural Labourer	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">18.74</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">13.03</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Family Industry	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">3.6</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">13.04</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Others	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">22.14</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">14 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of small and marginal holdings in all holdings (2015-16)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right"> 95.45 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">15 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Percentage of area under small and marginal holdings in total area under all holdings	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">77.77  </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">16 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Average size of marginal holdings in hectares (2015-16)	 </p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.4</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">17 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Average size of all land holdings in hectares (2015-16)	 </p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.66</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">18 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Livestock population per 100 hectares of reported area (2019)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">367.94 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">19 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Livestock number per 1000 population (2019)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">469.94 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">20 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Number of milk cattle per 100 population (2019)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">15.91</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">21 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">	Poultry population per 1000 population (2019)	</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">19.28 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">22 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">Number of persons engaged in estimated working factories per lakh population (2021-22) </p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">38.64 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">23 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">Value of product and co-product per industrial worker and employee in estimated working factories in lakh rupees (2021-22) </p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">145.91   </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">24 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">Value of industrial products and co-products per capita in estimated working factories in rupees (2021-22)</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5637.86</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">25 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold; font-weight: bold" valign="top"><font face="Arial" size="4"><p align="left">Value added per industrial worker in thousand rupees (2021-22)</p></font> </td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0  </p></td>
+</tr>
+</form></table>
+<div style="page-break-before:always;">  </div>
+<p align="center">       <font face="Arial
+" size="5">   
+<strong>	Table	 2	(B)	 </strong></font><font face="Arial
+">  	District Development Indicators of Important Items	  
+</font></p>
+<table align="center" border="1" cellspacing="0" width="100%">
+<tr align="center" bgcolor="#baedb1">
+<td width=""><font size="4"><b>	Serial Number	</b></font></td>
+<td width="45%"><font size="4"><b> 	Item	</b></font></td>
+<td width="15%"><font size="4"><b>2022-23</b></font></td>
+<td width="15%"><font size="4"><b>2023-24</b></font></td>
+<td width="15%"><font size="4"><b>2024-25</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>2</b></font></td>
+<td><font size="4"><b>3</b></font></td>
+<td><font size="4"><b>4</b></font></td>
+<td><font size="4"><b>5</b></font></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">1 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of area under forests in total reported area	 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.66 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.64 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">100.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">2 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of net sown area to total reported area	 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">76.74</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">79.94</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">3 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Crop Intensity	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">179.42</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">174.71 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">4 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of area under commercial crops in gross sown area	   </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">7.01</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">13.05 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">5 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	The average yield of food crops in quintals	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">6 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Fertilizer consumption per hectare kg	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">250.14 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">238.15 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">7 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Production per person kg	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">7.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Cereal	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">440.23</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">542.06 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">7.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Pulses	 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">6.43 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">6.36 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">8 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Gross value of agricultural produce in rupees	 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">8.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Per hectare on net sown area at prevailing prices	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">225686.49</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">310591.53</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">8.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	at prevailing rates per person	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">8.3</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Per agricultural worker per farmer and agricultural labourer	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">9 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of net irrigated area to net sown area	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">99.54 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">98.24 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">10 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of gross irrigated area to gross sown area	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">92.48 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">85.56</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">11 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of Agricultural Produce Markets per lakh net sown area	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.00 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">4.08</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.00</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">12 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of cold storages per thousand sq. km.	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">21.38</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">21.38</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">23.19</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">13 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of primary agricultural co-operative credit societies per lakh population	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">2.73</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">2.68</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">2.66</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">14 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of Cooperative Agriculture and Rural Development Banks per lakh population	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.24</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.23</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.22</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">15 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of agricultural cooperative purchasing and selling committees per lakh population	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.14</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.14</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.14</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">16 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Net per capita output from merchandise product segments at 2011-12 prices was Rs	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">32181.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">17 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Net per capita output from commodity product segments at current prices Rs	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right"> 63568.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right"> 0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">18 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of manufacturing segment in total net domestic product at current prices	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right"> 3.85</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">19 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of electricity consumed in agriculture sector in total electricity consumption	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">30.7</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5.18 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5.36</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">20 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Per Capita Electricity Consumption Kilo Watt Hour	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">342.02</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">580.0 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">591.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">21 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Electricity consumed in agriculture sector per hectare of net sown area kWh	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1092.69 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">295.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">22 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of schools per lakh population	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">22.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Primary School	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">94.26</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">93.66</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">95.42</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">22.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Upper Primary School	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">46.97</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">26.52</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">26.48</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">22.3</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Secondary School	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">23.37</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">23.00</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">23.18</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">22.4</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Degree College	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">7.71</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5.60</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">8.02</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">22.5</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Post Graduate Degree College	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1.69</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1.57</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">2.84</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">22.6</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Industrial training institute	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.19</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1.02</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1.01</p></td>
+</tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">23 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Teacher student ratio	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">23.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Primary School	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">18.71</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">17.17</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">16.65</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">23.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Upper Primary School	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">20.64</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">17.63</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">17.93</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">23.3</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Secondary School	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">8.55</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">8.29</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">8.29</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">23.4</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Degree College	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">93.62</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">90.10</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">18.65</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">23.5</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Post Graduate Degree College	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">10.87</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">14.06</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">25.82</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">23.6</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Industrial training institute	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">111.57</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">121.58</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">135.50</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">24 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of allopathic hospitals, community health centres and primary health centres per lakh population	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">3.81 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">3.75</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">3.44</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">25 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Allopathic hospitals per lakh population. Number of beds in community health centres and primary health centres	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">35.83</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">35.08</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">32.43 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">26 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Per family and mother child welfare centre. Average population per sub-centre	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">7185.81</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5049.07</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">5597.44</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">27 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Credit deposit ratio	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">75.17</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">68.29</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">73.14 </p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">28 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Percentage of loan disbursal to the primary sector in total loan disbursal	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">37.82</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">55.77</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">49.39</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">29 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Per capita deposit amount Rs.	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">33950.26</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">344.05</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">365.38</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">30 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Per capita loan disbursement Rs.	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">25521.3</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">234.96</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">267.25</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">31 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Loan disbursal in primary sector per capita Rs.	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">9653.03</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">131.03</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">132.01</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">32 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Population per bank commercial and rural branch in thousands	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">15.99</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">16.25</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">15.37</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">33 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Length of paved roads per thousand sq. km area in km	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">33.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Total	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1870.20</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">3376.00</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">3404.00</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">33.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Public Work Department	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1333.88</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1408.32</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">1393.79</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">34 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Length of pucca roads per lakh population in km	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">34.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Total	  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">248.05</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">440.72</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">439.90</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">34.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Public Work Department	 </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">176.92</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">183.85</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">180.12</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">35 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Length of railway line per thousand sq. km area in km	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">19.2</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">19.2</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">29.71</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">36 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Population served per ration shop in thousands	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">2.77<!--</td-->
+</p></td><td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">2.81</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right"> 3.17</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">37 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of telephone connections per lakh population	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">15.89</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">14.21</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">17.45</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">38 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Number of post offices per lakh population	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">8.27</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">7.03</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">7.79</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">39 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Population per cinema hall in lakhs	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.00</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.00</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.00</p></td>
+</tr>
+<tr>
+<td align="left" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">40 </p></td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial
+; font-size: medium; font-weight: bold" valign="top"><p align="left">	Per capita district plan expenditure. Outlay Rs.	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">  </p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">40.1</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Outlay	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">2807700.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+<tr>
+<td align="center" height="1" style="background-color: rgb(231,254,222); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><font size="3"><p align="center">40.2</p></font> </td>
+<td align="left" height="1" style="color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="left">	Actual Expenditure	</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right"> 1988416.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+<td align="right" height="1" style="background-color: rgb(255,255,255); color: rgb(0,0,0); font-family: Arial; font-size: medium; font-weight: bold" valign="top"><p align="right">0.0</p></td>
+</tr>
+</table>
+<table align="center" class="exclude-from-export" width="100%">
+<tr align="center">
+<td><font size="4"><b>	Note	: 	Table 2(B) Serial No. 1 to 11 Agriculture data for the previous year	 2023-24 	And number 16 to 18 state income data for the year	 2022-23 	Information for subsequent years is not given as it is available	 </b></font></td>
+</tr>
+</table>
+<script type="text/javascript">
+		function ExportToExcel(type, fn, dl) {
+			var wb = XLSX.utils.book_new(); // Create a new workbook
+
+			// Iterate over each table and add its data to the workbook
+			var tables = document.querySelectorAll('table');
+			tables.forEach(function(table, index) {
+				// Check if the table should be excluded
+				if (!table.classList.contains('exclude-from-export')) {
+					var ws_name = "Sheet" + (index + 1); // Sheet name
+					var ws = XLSX.utils.table_to_sheet(table); // Convert table to worksheet
+					XLSX.utils.book_append_sheet(wb, ws, ws_name); // Append worksheet to workbook
+				}
+			});
+
+			// Save the workbook as Excel file
+			return XLSX.writeFile(wb, fn
+					|| ('exported_data.' + (type || 'xlsx')));
+		}
+	</script>
+</td>
+</tr>
+</body>
+</html>

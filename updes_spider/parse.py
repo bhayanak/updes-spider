@@ -203,13 +203,14 @@ def parse_table_page(html: str) -> TablePage:
         title = soup.title.string.strip()
 
     # data tables = tables without the exclude class that are not merely
-    # wrappers around another (nested) table.
+    # wrappers around another *data* table. A data table may still contain a
+    # nested "exclude-from-export" footnote/note table in one of its cells.
     candidates = []
     for t in soup.find_all("table"):
         if _has_exclude_class(t):
             continue
-        if t.find("table") is not None:
-            continue  # wrapper; the inner table will be captured separately
+        if any(not _has_exclude_class(inner) for inner in t.find_all("table")):
+            continue  # wrapper around a deeper data table
         candidates.append(t)
 
     data_tables: List[DataTable] = []

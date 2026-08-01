@@ -1,0 +1,1402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Zila Report 1</title>
+<link href="../assets/style.css" rel="stylesheet" type="text/css"/>
+<script src="../assets/tbl.js" type="text/javascript"></script>
+<style>
+@media print {
+	input[type="button"] {
+		display: none;
+	}
+}
+</style>
+</head>
+<script type="text/javascript">
+	function showDiv() {
+		document.getElementById('welcomeDiv').style.display = "block";
+		document.getElementById('welcomeDiv1').style.display = "NONE";
+		window.print();
+		document.getElementById('welcomeDiv1').style.display = "block";
+		document.getElementById('welcomeDiv').style.display = "NONE";
+
+	}
+</script>
+<body background="../assets/backgr1.gif">
+<div id="welcomeDiv1">
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td align="center">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: #4273FF;
+    text-align: center;
+    padding: 10px 2px;
+    text-decoration: none;
+}
+li a:hover {
+	color: white;
+    background-color: #42ACDF;
+}
+</style>
+<div style="height:7px;background-color:  #0e20b2"></div>
+<table align="center" bgcolor="#00FF00" class="exclude-from-export" width="100%">
+<tr>
+<td bgcolor="white" width="13%">    
+            <img alt="uplogo" height="100px" src="../assets/UPlogo1.png" width="100px"/>
+</td>
+<td align="center" bgcolor="white" width="65%">
+<span style="font-size:52px; color:#381399; font-weight: bold;">	Spider	</span>
+<br/>
+<span style="font-size:30px;color:#1372a5;">( 	Statistical Journal Internet Based Data Entry and Retrieval System	 )</span>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Hpage1.jsp"><span style="font-size:42px;">🏠</span><span style="font-size:16px;"><br/><br/>Home</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/aboutus.jsp"><span style="font-size:42px;">📰</span><span style="font-size:16px;"><br/><br/>About Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spider/contactus.jsp"><span style="font-size:42px;">📠</span><span style="font-size:16px;"><br/><br/>Contact Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<div align="right">
+<button id="toggleLang">
+                    हिंदी
+                </button>
+</div>
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Feedback.jsp" target="_blank"><span style="font-size:28px;">📝</span><span style="font-size:16px;"><br/><br/>Feedback</span></a></li></ul>
+</td>
+</tr>
+</table>
+<div style="height:7px;background-color:  #172598"></div>
+
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td>
+<table align="center" class="exclude-from-export" height="100%" width="100%">
+<form action="/spiderreports/getGenralNews.action" id="getGenralNews" method="post" name="getGenralNews">
+<tr align="center" bgcolor="#8080ff">
+<td align="center" bgcolor="#8080ff"><font color="white" size="5"><b>	General Informations	</b></font></td>
+<td align="center"><input name="answer" onclick="showDiv()" src="images/print.png" style="height: 39px;" type="image" value="Print"/></td>
+</tr>
+<tr align="center">
+<td>
+<table class="exclude-from-export" width="100%">
+<tr>
+<td><font size="4"><b>	District	</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>MAINPURI</b></font></td>
+<td></td>
+<td><font size="4"><b>	Year	</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>2024-25</b></font></td>
+</tr>
+<tr>
+<td><font size="4"><b>	Table	 1 </b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>	District at a glance	</b></font></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</form>
+</table>
+</td></tr></table>
+</div>
+<div id="welcomeDiv" style="display: none;">
+<table align="center" class="exclude-from-export" width="100%">
+<tr align="center">
+<td align="center" bgcolor="#8080ff"><font size="5"><b>	General Informations	</b></font></td>
+</tr>
+</table>
+<table align="center" class="exclude-from-export" width="90%">
+<tr>
+<td><font size="4"><b>	Table	 1 :</b></font> <font color="blue" size="4"><b>	District at a glance	</b></font></td>
+<td></td>
+</tr>
+</table>
+</div>
+<input onclick="ExportToExcel('xlsx', 'तालिका 1 :.xlsx', true)" style="font-weight: bold; color: blue; margin-left: 1390px; margin-bottom: 12px;" type="button" value="Export Into Excel"/>
+<!-- ============================================================================================================== -->
+<!-- ============================================================================================================== -->
+<!-- ============================================================================================================== -->
+<table align="center" border="1" cellspacing="0" width="100%">
+<thead>
+<tr align="center" bgcolor="#baedb1">
+<td width="10%"><font size="4"><b>	Serial Number	</b></font></td>
+<td width="45%"><font size="4"><b>	Item	</b></font></td>
+<td width="20%"><font size="4"><b>	Unit	</b></font></td>
+<td width="8%"><font size="4"><b>	period	</b></font></td>
+<td width="7%"><font size="4"><b>	Description	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>2</b></font></td>
+<td><font size="4"><b>3</b></font></td>
+<td><font size="4"><b>4</b></font></td>
+<td><font size="4"><b>5</b></font></td>
+</tr>
+</thead>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>1.</b></font></td>
+<td align="left"><font size="4"><b>	Geographical area	</b></font></td>
+<td align="center"><font size="4"><b>	Sq km.	</b></font></td>
+<td align="center"><font size="4"><b>2025</b></font></td>
+<td align="center"><font size="4"><b>2760</b></font></td>
+</tr>
+<!-- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>2.1</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Population	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.1.1</b></font></td>
+<td align="left"><font size="4"><b>	Male	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>993 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.1.2</b></font></td>
+<td align="left"><font size="4"><b>	Female	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>875 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.1.3</b></font></td>
+<td align="left"><font size="4"><b>	Total	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>1869 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.1.4</b></font></td>
+<td align="left"><font size="4"><b>	Rural	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>1580 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.1.5</b></font></td>
+<td align="left"><font size="4"><b>	Urban	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>288 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.1.6</b></font></td>
+<td align="left"><font size="4"><b>	Scheduled caste	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>368 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.1.7</b></font></td>
+<td align="left"><font size="4"><b>	Scheduled Tribes	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>0.48 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>2.2</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Number of literate Persons	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.2.1</b></font></td>
+<td align="left"><font size="4"><b>	Total	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>1203.88 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.2.2</b></font></td>
+<td align="left"><font size="4"><b>	Male	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>712.11 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>2.2.3</b></font></td>
+<td align="left"><font size="4"><b>	Female	</b></font></td>
+<td align="center"><font size="4"><b>	No in thousands	</b></font></td>
+<td align="center"><font size="4"><b> 2011</b></font></td>
+<td align="center"><font size="4"><b>491.77 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>3.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Number of constituencies	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>3.1</b></font></td>
+<td align="left"><font size="4"><b>	Lok Sabha	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>1 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>3.2</b></font></td>
+<td align="left"><font size="4"><b>	Vidhan Sabha	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>4 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>4.</b></font></td>
+<td align="left"><font size="4"><b>	Number of Tehsils	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>6 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>5.</b></font></td>
+<td align="left"><font size="4"><b>	Community Development Block	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>9 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------ -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>6.</b></font></td>
+<td align="left"><font size="4"><b>	Common service center	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>1221 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------ -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>7.</b></font></td>
+<td align="left"><font size="4"><b>	Gram Panchayat	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>549 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>8.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Number of villages	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>8.1</b></font></td>
+<td align="left"><font size="4"><b>	Number of inhabited villages	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>807 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>8.2</b></font></td>
+<td align="left"><font size="4"><b>	Number of uninhabited villages	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>34 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>8.3</b></font></td>
+<td align="left"><font size="4"><b>	Forest Village	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>8.4</b></font></td>
+<td align="left"><font size="4"><b>	Total Village	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>841 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>9.</b></font></td>
+<td align="left"><font size="4"><b>	Nagar and Group of Nagar	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>9 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>10.</b></font></td>
+<td align="left"><font size="4"><b>	Nagar Nigam	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>11.</b></font></td>
+<td align="left"><font size="4"><b>	Nagar Palika Parishad	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>1 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>12.</b></font></td>
+<td align="left"><font size="4"><b>	Cantonment Board	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>13.</b></font></td>
+<td align="left"><font size="4"><b>	Nagar Panchayat	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>8 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>14.</b></font></td>
+<td align="left"><font size="4"><b>	Census Town	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>15.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Police Thana	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>15.1</b></font></td>
+<td align="left"><font size="4"><b>	Rural	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>6 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>15.2</b></font></td>
+<td align="left"><font size="4"><b>	Urban	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>16.</b></font></td>
+<td align="left"><font size="4"><b>	Bus Station/Bus Stop	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>103 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>17.</b></font></td>
+<td align="left"><font size="4"><b>	Railway stations (including halts)	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>8 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>18.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Length of railway line	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>18.1</b></font></td>
+<td align="left"><font size="4"><b>	Broad Guage	</b></font></td>
+<td align="center"><font size="4"><b>	K.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>82 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>18.2</b></font></td>
+<td align="left"><font size="4"><b>	Metre Guage	</b></font></td>
+<td align="center"><font size="4"><b>	K.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>19.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Post Office	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>19.1</b></font></td>
+<td align="left"><font size="4"><b>	Rural	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>158
+				</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>19.2</b></font></td>
+<td align="left"><font size="4"><b>	Urban	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>12 </b></font></td>
+</tr>
+<!-- 
+ 				<tr align="right" bgcolor="white" >
+					<td align="left"><font size="4"><b>20.</b></font></td>
+ 					<td align="left" ><font size="4"><b>तारघर</b></font></td>
+ 					<td align="center"><font size="4"><b> संख्या   </b></font></td>
+ 					<td align="center"><font size="4"><b> 2024-25</b></font></td>
+ 					<td align="center"><font size="4"><b>0 </b></font></td>		
+ 				</tr>
+ 				 -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>20.</b></font></td>
+<td align="left"><font size="4"><b>	Telephone Connection	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>381 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>21.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Commercial Bank	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<!-- --------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>21.1</b></font></td>
+<td align="left" colspan="4"><font size="4"><b>	Nationalised Banks	</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>21.1.1</b></font></td>
+<td align="left"><font size="4"><b>	Branches	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>60 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>21.1.2</b></font></td>
+<td align="left"><font size="4"><b>	Number of ATMs	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>81 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>21.2</b></font></td>
+<td align="left" colspan="4"><font size="4"><b>	Other	 	Non Nationalized Banks	</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>21.2.1</b></font></td>
+<td align="left"><font size="4"><b>	Branches	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>38 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>21.2.2</b></font></td>
+<td align="left"><font size="4"><b>	Number of ATMs	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>17 </b></font></td>
+</tr>
+<!-- ---------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>22</b></font></td>
+<td align="left" colspan="4"><font size="4"><b>	Regional Rural Bank	</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>22.1</b></font></td>
+<td align="left"><font size="4"><b>	Branches	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>44 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>22.2</b></font></td>
+<td align="left"><font size="4"><b>	Number of ATMs	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<!-- ---------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>23</b></font></td>
+<td align="left" colspan="4"><font size="4"><b>	Co-operative Bank	</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>23.1</b></font></td>
+<td align="left"><font size="4"><b>	Branches	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>13 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>23.2</b></font></td>
+<td align="left"><font size="4"><b>	Number of ATMs	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>3 </b></font></td>
+</tr>
+<!-- --------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>24.</b></font></td>
+<td align="left"><font size="4"><b>	Branches of Cooperative Agriculture and Rural Development Bank	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>5 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>25.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Fare Price Shop	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>25.1</b></font></td>
+<td align="left"><font size="4"><b>	Rural	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>689 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>25.2</b></font></td>
+<td align="left"><font size="4"><b>	Urban	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>26.</b></font></td>
+<td align="left"><font size="4"><b>	Biogas plant	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>27.</b></font></td>
+<td align="left"><font size="4"><b>	Cold Storage	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>64 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>28.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Agriculture	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>28.1</b></font></td>
+<td align="left"><font size="4"><b>	Net sown area	</b></font></td>
+<td align="center"><font size="4"><b> 	Thousand hect.	 </b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>221 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>28.2</b></font></td>
+<td align="left"><font size="4"><b>	Area sown more than once	</b></font></td>
+<td align="center"><font size="4"><b> 	Thousand hect.	 </b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>165 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>28.3</b></font></td>
+<td align="left"><font size="4"><b>	Net irrigated area	</b></font></td>
+<td align="center"><font size="4"><b> 	Thousand hect.	 </b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>217 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>28.4</b></font></td>
+<td align="left"><font size="4"><b>	Gross Irrigated Area	</b></font></td>
+<td align="center"><font size="4"><b> 	Thousand hect.	 </b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>330 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>28.5</b></font></td>
+<td align="center" bgcolor="#98F5FF"><font size="4"><b><u>	Agricultural Production	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>28.5.1</b></font></td>
+<td align="left"><font size="4"><b>	Food Grains	</b></font></td>
+<td align="center"><font size="4"><b>	Thousand Metric Tonne	</b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>1185.15 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>28.5.2</b></font></td>
+<td align="left"><font size="4"><b>	Sugarcane	</b></font></td>
+<td align="center"><font size="4"><b> 	Thousand Metric Tonne	</b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>0.00 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>28.5.3</b></font></td>
+<td align="left"><font size="4"><b>	Oilseed	</b></font></td>
+<td align="center"><font size="4"><b>	Thousand Metric Tonne	</b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>53.86 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>28.5.4</b></font></td>
+<td align="left"><font size="4"><b>	Potato	</b></font></td>
+<td align="center"><font size="4"><b>	Thousand Metric Tonne	 </b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>1936.33 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>29</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Climate	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>29.1</b></font></td>
+<td align="center" bgcolor="#98F5FF"><font size="4"><b><u>	Rain	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>29.1.1</b></font></td>
+<td align="left"><font size="4"><b>	General	</b></font></td>
+<td align="center"><font size="4"><b>	M.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024</b></font></td>
+<td align="center"><font size="4"><b>1.5 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>29.1.2</b></font></td>
+<td align="left"><font size="4"><b>	Actual	</b></font></td>
+<td align="center"><font size="4"><b>	M.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024</b></font></td>
+<td align="center"><font size="4"><b>224.5 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>29.2</b></font></td>
+<td align="center" bgcolor="#98F5FF"><font size="4"><b><u>	Temperature	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>29.2.1</b></font></td>
+<td align="left"><font size="4"><b>	Maximum	</b></font></td>
+<td align="center"><font size="4"><b> 	Centigrade	 </b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>46.0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>29.2.2</b></font></td>
+<td align="left"><font size="4"><b>	Minimum	</b></font></td>
+<td align="center"><font size="4"><b> 	Centigrade	 </b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>3.2 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>30.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Irrigation	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>30.1</b></font></td>
+<td align="left"><font size="4"><b>	The length of the canals	</b></font></td>
+<td align="center"><font size="4"><b>	K.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>1041 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>30.2</b></font></td>
+<td align="left"><font size="4"><b>	Government Tubewell	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>616 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>30.3</b></font></td>
+<td align="left"><font size="4"><b>	Private Tube Well and PumpSet	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>68099 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>31.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Animal Husbandry	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>31.1</b></font></td>
+<td align="left"><font size="4"><b>	Total Live Stock	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2019</b></font></td>
+<td align="center"><font size="4"><b>1015532 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>31.2</b></font></td>
+<td align="left"><font size="4"><b>	Veterinary Hospital	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>35 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>31.3</b></font></td>
+<td align="left"><font size="4"><b>	D Category Veterinary Dispensary	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>4 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>31.4.1</b></font></td>
+<td align="left"><font size="4"><b>	Animal Service Center	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>38 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>31.4.2</b></font></td>
+<td align="left"><font size="4"><b>	Artificial Insemination Center	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>29 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>31.4.3</b></font></td>
+<td align="left"><font size="4"><b>	Artificial Insemination Sub Centre	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<!-- ---------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>31.5</b></font></td>
+<td align="left" colspan="4"><font size="4"><b>	Cow shelter / Cow protection center	</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>31.5.1</b></font></td>
+<td align="left"><font size="4"><b>	Permanent	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>10 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>31.5.2</b></font></td>
+<td align="left"><font size="4"><b>	Temporary	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>40 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>31.5.3</b></font></td>
+<td align="left"><font size="4"><b>	Total	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>50 </b></font></td>
+</tr>
+<!-- ---------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>32.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Co-operatives	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>32.1</b></font></td>
+<td align="left"><font size="4"><b>	Primary agricultural credit co-operative societies	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>58 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>32.2</b></font></td>
+<td align="left"><font size="4"><b>	Members of committees	</b></font></td>
+<td align="center"><font size="4"><b> 	No in thousands	
+				</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>90.48 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>33.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Industry	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>33.1</b></font></td>
+<td align="left"><font size="4"><b>	Annual Industry Survey FAME Factories	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2021</b></font></td>
+<td align="center"><font size="4"><b>69 </b></font></td>
+</tr>
+<!-- ---------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>33.2</b></font></td>
+<td align="left" colspan="4"><font size="4"><b>	Micro, Small, Medium Enterprises	</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>33.2.1</b></font></td>
+<td align="left"><font size="4"><b>	Number	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>8288 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>33.2.2</b></font></td>
+<td align="left"><font size="4"><b>	Employment Number	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>44831 </b></font></td>
+</tr>
+<!-- ---------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>34.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Education	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.01</b></font></td>
+<td align="left"><font size="4"><b>	Primary School	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>2083 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.02</b></font></td>
+<td align="left"><font size="4"><b>	Upper Primary School	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>578 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.03</b></font></td>
+<td align="left"><font size="4"><b>	Secondary School	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>506 </b></font></td>
+</tr>
+<!-- 
+ 				<tr align="right" bgcolor="white" >
+					<td align="center"><font size="4"><b>35.04</b></font></td>
+ 					<td align="left" ><font size="4"><b>वैकल्पिक शिक्षा केन्द्र</b></font></td>
+ 					<td align="center"><font size="4"><b> संख्या  </b></font></td>
+ 					<td align="center"><font size="4"><b> 2024-25</b></font></td>
+ 					<td align="center"><font size="4"><b>0 </b></font></td>		
+ 				</tr>
+ 				 -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.04</b></font></td>
+<td align="left"><font size="4"><b>	Degree College	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>177 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.05</b></font></td>
+<td align="left"><font size="4"><b>	Post Graduate Degree College	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>62 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.06</b></font></td>
+<td align="left"><font size="4"><b>	University	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.07</b></font></td>
+<td align="left"><font size="4"><b>	Industrial Training Institute	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>22 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.08</b></font></td>
+<td align="left"><font size="4"><b>	Polytechnic	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>3 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.09</b></font></td>
+<td align="left"><font size="4"><b>	Teacher Training Institute	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.10</b></font></td>
+<td align="left"><font size="4"><b>	Engineering College	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>1 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.11</b></font></td>
+<td align="left"><font size="4"><b>	Medical College	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.12</b></font></td>
+<td align="left"><font size="4"><b>	Dental College	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.13</b></font></td>
+<td align="left"><font size="4"><b>	Nursing College	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>34.14</b></font></td>
+<td align="left"><font size="4"><b>	Para Medical College	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>35.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Public Health	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>35.1</b></font></td>
+<td align="center" bgcolor="#98F5FF"><font size="4"><b><u>	Hospitals and dispensaries	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.1.1</b></font></td>
+<td align="left"><font size="4"><b>	Allopathic	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>2 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.1.2</b></font></td>
+<td align="left"><font size="4"><b>	Ayurvedic	 </b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>23 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.1.3</b></font></td>
+<td align="left"><font size="4"><b>	Homeopathic	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>16 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.1.4</b></font></td>
+<td align="left"><font size="4"><b>	Unani	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>35.2</b></font></td>
+<td align="left"><font size="4"><b>	Community Health Center	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>16 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>35.3</b></font></td>
+<td align="left"><font size="4"><b>	Primary Health Center	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>57 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.3.1</b></font></td>
+<td align="left"><font size="4"><b>	Ayushman Arogya Mandir / Health Wellness Center	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>145 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.3.2</b></font></td>
+<td align="left"><font size="4"><b>	Family Welfare Sub-centre	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>245 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.3.3</b></font></td>
+<td align="left"><font size="4"><b>	Health ATM Center	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>12 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.3.4</b></font></td>
+<td align="left"><font size="4"><b>	Yoga Centre	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>397 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>35.4</b></font></td>
+<td align="center" bgcolor="#98F5FF"><font size="4"><b><u>	Special Hospital	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.4.1</b></font></td>
+<td align="left"><font size="4"><b>	Tuberculosis	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.4.2</b></font></td>
+<td align="left"><font size="4"><b>	Leprosy	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="right"><font size="4"><b>35.4.3</b></font></td>
+<td align="left"><font size="4"><b>	Infectious Disease	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>36.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Length Of Surface Roads	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>36.1</b></font></td>
+<td align="left"><font size="4"><b>	The total length of the roads	</b></font></td>
+<td align="center"><font size="4"><b>	K.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>9603 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>36.2</b></font></td>
+<td align="left"><font size="4"><b>	Length of roads constructed by Public Works Department	</b></font></td>
+<td align="center"><font size="4"><b>	K.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>3811 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>36.3</b></font></td>
+<td align="left"><font size="4"><b>	Expressway	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b>2024-25</b></font></td>
+<td align="center"><font size="4"><b>26 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>36.4</b></font></td>
+<td align="left"><font size="4"><b>	National Highway	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>36.5</b></font></td>
+<td align="left"><font size="4"><b>	Airstrip	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>36.6</b></font></td>
+<td align="left"><font size="4"><b>	Air Port	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>36.7</b></font></td>
+<td align="left"><font size="4"><b>	Length of inland waterways	</b></font></td>
+<td align="center"><font size="4"><b>	K.M.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>37.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Electricity	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>37.1.1</b></font></td>
+<td align="left"><font size="4"><b>	Electrical Connection	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>302355 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>37.1.2</b></font></td>
+<td align="left"><font size="4"><b>	Government Tube Well and Pump Canal	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>633 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>37.2</b></font></td>
+<td align="left"><font size="4"><b>	Energized Private Tube Well / Pump Set	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>17449 </b></font></td>
+</tr>
+<!-- ------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>37.3</b></font></td>
+<td align="left"><font size="4"><b>	Electrified SC/ST Colonies	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>38.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>Status of  drinking water facility  under Jal Jeevan Mission (Rural) in the district</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<!-- --------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>38.1</b></font></td>
+<td align="left"><font size="4"><b>	Occupied Villages	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>483 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>38.2</b></font></td>
+<td align="left"><font size="4"><b>	Number of drinking water connections	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>22657 </b></font></td>
+</tr>
+<!-- --------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>39.</b></font></td>
+<td align="center" bgcolor="skyblue"><font size="4"><b><u>	Entertainment	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>39.1</b></font></td>
+<td align="left"><font size="4"><b>	Movie Theater	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>39.2</b></font></td>
+<td align="left"><font size="4"><b>	Number of seats in the cinema hall	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<!-- --------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>39.3</b></font></td>
+<td align="left"><font size="4"><b>	Multiplex	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>39.4</b></font></td>
+<td align="left"><font size="4"><b>	Number of screens in the multiplex	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>39.5</b></font></td>
+<td align="left"><font size="4"><b>	Number of seats in multiplexes	</b></font></td>
+<td align="center"><font size="4"><b> 	Number	 </b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0 </b></font></td>
+</tr>
+<!-- --------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>40.</b></font></td>
+<td align="left"><font size="4"><b>	District Gross Domestic Product (at 2011-12 prices)	</b></font></td>
+<td align="center"><font size="4"><b>	in crore rupees	</b></font></td>
+<td align="center"><font size="4"><b> 2020-21</b></font></td>
+<td align="center"><font size="4"><b>6061.26 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	in crore rupees	</b></font></td>
+<td align="center"><font size="4"><b> 2021-22</b></font></td>
+<td align="center"><font size="4"><b>6473.14 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	in crore rupees	</b></font></td>
+<td align="center"><font size="4"><b> 2022-23</b></font></td>
+<td align="center"><font size="4"><b>6885.00 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>41.</b></font></td>
+<td align="left"><font size="4"><b>	District Domestic Total Net Product (at current prices)	</b></font></td>
+<td align="center"><font size="4"><b>	in crore rupees	</b></font></td>
+<td align="center"><font size="4"><b> 2020-21</b></font></td>
+<td align="center"><font size="4"><b>110936.30 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	in crore rupees	</b></font></td>
+<td align="center"><font size="4"><b> 2021-22</b></font></td>
+<td align="center"><font size="4"><b>0.00 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	in crore rupees	</b></font></td>
+<td align="center"><font size="4"><b> 2022-23</b></font></td>
+<td align="center"><font size="4"><b>13600.10 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>42.</b></font></td>
+<td align="left"><font size="4"><b>	Net deposits in national savings	</b></font></td>
+<td align="center"><font size="4"><b>	Lakh Rs.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>9363.94 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4"><b>43.</b></font></td>
+<td align="left" bgcolor="skyblue"><font size="4"><b><u> 	Total Expenditure/Outlay on District Sector Plan	</u></b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b> </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>43.1</b></font></td>
+<td align="left"><font size="4"><b>	Outlay	</b></font></td>
+<td align="center"><font size="4"><b>	Thousand Rs.	</b></font></td>
+<td align="center"><font size="4"><b> 2022-23
+				</b></font></td>
+<td align="center"><font size="4"><b> 2807700.00
+				</b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	Thousand Rs.	</b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>0.00 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	Thousand Rs.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0.00 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b>43.2</b></font></td>
+<td align="left"><font size="4"><b>	Actual Expenditure	</b></font></td>
+<td align="center"><font size="4"><b>	Thousand Rs.	</b></font></td>
+<td align="center"><font size="4"><b> 2022-23</b></font></td>
+<td align="center"><font size="4"><b>1988416.00 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	Thousand Rs.	</b></font></td>
+<td align="center"><font size="4"><b> 2023-24</b></font></td>
+<td align="center"><font size="4"><b>0.00 </b></font></td>
+</tr>
+<tr align="right" bgcolor="white">
+<td align="center"><font size="4"><b> </b></font></td>
+<td align="left"><font size="4"><b> </b></font></td>
+<td align="center"><font size="4"><b>	Thousand Rs.	</b></font></td>
+<td align="center"><font size="4"><b> 2024-25</b></font></td>
+<td align="center"><font size="4"><b>0.00 </b></font></td>
+</tr>
+</table>
+<!-- ============================================================================================================== -->
+<!-- ============================================================================================================== -->
+<!-- ============================================================================================================== -->
+<br/>
+<table align="center" class="exclude-from-export" width="80%">
+<tr align="center">
+<!--  comnted by Honey -->
+<!-- <td ><font size="4"><b>नोट- वर्ष 2019-20 के पश्‍चात् भूमि उपयोगिता के  आंकड़े अप्राप्त होने के कारण आगामी  वर्षो के लिए पुनरावृत्ति की गई  है  | </b></font></td> -->
+</tr>
+</table>
+<script type="text/javascript">
+		function ExportToExcel(type, fn, dl) {
+			var wb = XLSX.utils.book_new(); // Create a new workbook
+
+			// Iterate over each table and add its data to the workbook
+			var tables = document.querySelectorAll('table');
+			tables.forEach(function(table, index) {
+				// Check if the table should be excluded
+				if (!table.classList.contains('exclude-from-export')) {
+					var ws_name = "Sheet" + (index + 1); // Sheet name
+					var ws = XLSX.utils.table_to_sheet(table); // Convert table to worksheet
+					XLSX.utils.book_append_sheet(wb, ws, ws_name); // Append worksheet to workbook
+				}
+			});
+
+			// Save the workbook as Excel file
+			return XLSX.writeFile(wb, fn
+					|| ('exported_data.' + (type || 'xlsx')));
+		}
+	</script>
+</body>
+</html>

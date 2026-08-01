@@ -1,0 +1,560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Table 14 Report</title>
+<script src="../assets/tbl.js" type="text/javascript"></script>
+<style>
+  @media print {
+    input[type="button"] {
+        display: none;
+    }
+      
+   /*   td, th {
+    width: auto;
+    word-break: break-word;
+} */
+
+
+</style>
+</head>
+<script type="text/javascript">
+
+function showDiv() {
+	   document.getElementById('welcomeDiv').style.display = "block";
+	   document.getElementById('welcomeDiv1').style.display = "NONE";
+	   window.print();
+	   document.getElementById('welcomeDiv1').style.display = "block";
+	   document.getElementById('welcomeDiv').style.display = "NONE";
+	    
+	}
+
+
+</script>
+<body background="../assets/backgr1.gif">
+<div id="welcomeDiv1">
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td align="center">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: #4273FF;
+    text-align: center;
+    padding: 10px 2px;
+    text-decoration: none;
+}
+li a:hover {
+	color: white;
+    background-color: #42ACDF;
+}
+</style>
+<div style="height:7px;background-color:  #0e20b2"></div>
+<table align="center" bgcolor="#00FF00" class="exclude-from-export" width="100%">
+<tr>
+<td bgcolor="white" width="13%">    
+            <img alt="uplogo" height="100px" src="../assets/UPlogo1.png" width="100px"/>
+</td>
+<td align="center" bgcolor="white" width="65%">
+<span style="font-size:52px; color:#381399; font-weight: bold;">	Spider	</span>
+<br/>
+<span style="font-size:30px;color:#1372a5;">( 	Statistical Journal Internet Based Data Entry and Retrieval System	 )</span>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Hpage1.jsp"><span style="font-size:42px;">🏠</span><span style="font-size:16px;"><br/><br/>Home</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/aboutus.jsp"><span style="font-size:42px;">📰</span><span style="font-size:16px;"><br/><br/>About Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spider/contactus.jsp"><span style="font-size:42px;">📠</span><span style="font-size:16px;"><br/><br/>Contact Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<div align="right">
+<button id="toggleLang">
+                    हिंदी
+                </button>
+</div>
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Feedback.jsp" target="_blank"><span style="font-size:28px;">📝</span><span style="font-size:16px;"><br/><br/>Feedback</span></a></li></ul>
+</td>
+</tr>
+</table>
+<div style="height:7px;background-color:  #172598"></div>
+
+</td>
+</tr>
+<tr align="center"><td align="center">
+<table align="center" cellspacing="0" class="exclude-from-export" width="100%">
+<tr bgcolor="#8080ff">
+<td align="center" bgcolor="#8080ff"><font color="white" size="5"><b>                     	Area and Population	</b></font></td>
+<td align="right"><input name="answer" onclick="showDiv()" src="images/print.png" style="height: 39px; " type="image" value="Print"/></td>
+</tr>
+</table></td>
+</tr>
+<tr align="center">
+<td>
+<table class="exclude-from-export" width="100%">
+<tr>
+<td><font face="Mangal" size="4"><b>	District	    :  <font color="blue" size="4"><b>MAINPURI</b></font></b></font></td>
+<td></td>
+<td></td>
+<td></td>
+<td><font size="4"><b>	Year	 :</b></font><font color="blue" size="4"><b>2024-25</b></font></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id="welcomeDiv" style="display:none;">
+<table align="center" class="exclude-from-export" width="90%">
+<tr align="center">
+<td align="center" bgcolor="#8080ff"><font size="5"><b>	Area and Population	</b></font></td>
+</tr>
+</table>
+</div>
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td><font size="4"><b>	Table	 14 : </b></font><font color="blue" size="4"><b>Population of  MALE /FEMALE in the district according to age group and educational level, Census 2011</b></font></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+</table>
+<table align="center" class="exclude-from-export" height="100%" id="printableTable" width="100%">
+<form action="/spiderreports/getGenralNews.action" id="getGenralNews" method="post" name="getGenralNews">
+<tr></tr>
+<tr></tr>
+<tr align="center">
+<td>
+<input onclick="ExportToExcel('xlsx', 'तालिका 14 :.xlsx', true)" style="font-weight: bold; color: blue; margin-left: 1368px; margin-bottom: 12px;" type="button" value="Export Into Excel"/>
+<table border="1" cellspacing="0" class="t1" width="100%">
+<tr align="center" bgcolor="#baedb1">
+<td rowspan="2"><font size="4"><b>	Age Group	</b></font></td>
+<td colspan="2"><font size="4"><b>	Illiterate	 </b></font></td>
+<td colspan="2"><font size="4"><b>	Literate (irrespective of educational level)	</b></font></td>
+<td colspan="2"><font size="4"><b> 	Less Than Primary	</b></font></td>
+<td colspan="2"><font size="4"><b>	Primary	</b></font></td>
+<td colspan="2"><font size="4"><b>	Middle	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#baedb1" height="1">
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>2</b></font></td>
+<td><font size="4"><b>3</b></font></td>
+<td><font size="4"><b>4</b></font></td>
+<td><font size="4"><b>5</b></font></td>
+<td><font size="4"><b>6</b></font></td>
+<td><font size="4"><b>7</b></font></td>
+<td><font size="4"><b>8</b></font></td>
+<td><font size="4"><b>9</b></font></td>
+<td><font size="4"><b>10</b></font></td>
+<td><font size="4"><b>11</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>	 All Age	</b></font></td>
+<td><font size="4"><b>281267</b></font></td>
+<td><font size="4"><b>383377</b></font></td>
+<td><font size="4"><b>712110</b></font></td>
+<td><font size="4"><b>491775</b></font></td>
+<td><font size="4"><b>108247</b></font></td>
+<td><font size="4"><b>90137</b></font></td>
+<td><font size="4"><b>134807</b></font></td>
+<td><font size="4"><b>130470</b></font></td>
+<td><font size="4"><b>166227</b></font></td>
+<td><font size="4"><b>117972</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>00-06   </b></font></td>
+<td><font size="4"><b>150943</b></font></td>
+<td><font size="4"><b>133406</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>07-09   </b></font></td>
+<td><font size="4"><b>12558</b></font></td>
+<td><font size="4"><b>11984</b></font></td>
+<td><font size="4"><b>60364</b></font></td>
+<td><font size="4"><b>51153</b></font></td>
+<td><font size="4"><b>56381</b></font></td>
+<td><font size="4"><b>47833</b></font></td>
+<td><font size="4"><b>2714</b></font></td>
+<td><font size="4"><b>2447</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>10-14   </b></font></td>
+<td><font size="4"><b>9798</b></font></td>
+<td><font size="4"><b>10220</b></font></td>
+<td><font size="4"><b>124227</b></font></td>
+<td><font size="4"><b>104394</b></font></td>
+<td><font size="4"><b>38252</b></font></td>
+<td><font size="4"><b>30893</b></font></td>
+<td><font size="4"><b>59099</b></font></td>
+<td><font size="4"><b>51562</b></font></td>
+<td><font size="4"><b>24981</b></font></td>
+<td><font size="4"><b>20603</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>15-19   </b></font></td>
+<td><font size="4"><b>9089</b></font></td>
+<td><font size="4"><b>10222</b></font></td>
+<td><font size="4"><b>116048</b></font></td>
+<td><font size="4"><b>90553</b></font></td>
+<td><font size="4"><b>2827</b></font></td>
+<td><font size="4"><b>1914</b></font></td>
+<td><font size="4"><b>16031</b></font></td>
+<td><font size="4"><b>13832</b></font></td>
+<td><font size="4"><b>36691</b></font></td>
+<td><font size="4"><b>28726</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>20-24   </b></font></td>
+<td><font size="4"><b>8798</b></font></td>
+<td><font size="4"><b>15456</b></font></td>
+<td><font size="4"><b>83998</b></font></td>
+<td><font size="4"><b>60322</b></font></td>
+<td><font size="4"><b>1670</b></font></td>
+<td><font size="4"><b>1354</b></font></td>
+<td><font size="4"><b>8534</b></font></td>
+<td><font size="4"><b>9116</b></font></td>
+<td><font size="4"><b>17598</b></font></td>
+<td><font size="4"><b>14575</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>25-29   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>30-34   </b></font></td>
+<td><font size="4"><b>8815</b></font></td>
+<td><font size="4"><b>22392</b></font></td>
+<td><font size="4"><b>49406</b></font></td>
+<td><font size="4"><b>34936</b></font></td>
+<td><font size="4"><b>882</b></font></td>
+<td><font size="4"><b>1137</b></font></td>
+<td><font size="4"><b>5732</b></font></td>
+<td><font size="4"><b>8542</b></font></td>
+<td><font size="4"><b>14301</b></font></td>
+<td><font size="4"><b>11057</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>35-59   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>&gt;=60</b></font></td>
+<td><font size="4"><b>9944</b></font></td>
+<td><font size="4"><b>20115</b></font></td>
+<td><font size="4"><b>20470</b></font></td>
+<td><font size="4"><b>7023</b></font></td>
+<td><font size="4"><b>973</b></font></td>
+<td><font size="4"><b>617</b></font></td>
+<td><font size="4"><b>4846</b></font></td>
+<td><font size="4"><b>3191</b></font></td>
+<td><font size="4"><b>5479</b></font></td>
+<td><font size="4"><b>1541</b></font></td>
+</tr>
+</table>
+<div style="page-break-before:always"> </div>
+<table border="1" cellspacing="0" class="t1" id="printableTable" width="100%">
+<tr align="center" bgcolor="#baedb1">
+<td rowspan="2"><font size="4"><b>	Age Group	</b></font></td>
+<td colspan="2"><font size="4"><b>	Higher Secondary School	 </b></font></td>
+<td colspan="2"><font size="4"><b>	Higher Secondary / Intermediate / Pre University / Senior Secondary	</b></font></td>
+<td colspan="2"><font size="4"><b>	Non Technical Diploma Certificate	</b></font></td>
+<td colspan="2"><font size="4"><b>	Technical Diploma Certificate	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#baedb1" height="1">
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>12</b></font></td>
+<td><font size="4"><b>13</b></font></td>
+<td><font size="4"><b>14</b></font></td>
+<td><font size="4"><b>15</b></font></td>
+<td><font size="4"><b>16</b></font></td>
+<td><font size="4"><b>17</b></font></td>
+<td><font size="4"><b>18</b></font></td>
+<td><font size="4"><b>19</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>	 All Age	</b></font></td>
+<td><font size="4"><b>132743</b></font></td>
+<td><font size="4"><b>64964</b></font></td>
+<td><font size="4"><b>84588</b></font></td>
+<td><font size="4"><b>40608</b></font></td>
+<td><font size="4"><b>76</b></font></td>
+<td><font size="4"><b>54</b></font></td>
+<td><font size="4"><b>855</b></font></td>
+<td><font size="4"><b>96</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>00-06   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>07-09   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>10-14   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>15-19   </b></font></td>
+<td><font size="4"><b>42247</b></font></td>
+<td><font size="4"><b>31620</b></font></td>
+<td><font size="4"><b>15606</b></font></td>
+<td><font size="4"><b>12590</b></font></td>
+<td><font size="4"><b>17</b></font></td>
+<td><font size="4"><b>4</b></font></td>
+<td><font size="4"><b>119</b></font></td>
+<td><font size="4"><b>18</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>20-24   </b></font></td>
+<td><font size="4"><b>17291</b></font></td>
+<td><font size="4"><b>9206</b></font></td>
+<td><font size="4"><b>21248</b></font></td>
+<td><font size="4"><b>13063</b></font></td>
+<td><font size="4"><b>16</b></font></td>
+<td><font size="4"><b>8</b></font></td>
+<td><font size="4"><b>251</b></font></td>
+<td><font size="4"><b>32</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>25-29   </b></font></td>
+<td><font size="4"><b>13978</b></font></td>
+<td><font size="4"><b>6447</b></font></td>
+<td><font size="4"><b>8281</b></font></td>
+<td><font size="4"><b>4299</b></font></td>
+<td><font size="4"><b>7</b></font></td>
+<td><font size="4"><b>11</b></font></td>
+<td><font size="4"><b>111</b></font></td>
+<td><font size="4"><b>13</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>30-34   </b></font></td>
+<td><font size="4"><b>12091</b></font></td>
+<td><font size="4"><b>5208</b></font></td>
+<td><font size="4"><b>6627</b></font></td>
+<td><font size="4"><b>3095</b></font></td>
+<td><font size="4"><b>11</b></font></td>
+<td><font size="4"><b>6</b></font></td>
+<td><font size="4"><b>62</b></font></td>
+<td><font size="4"><b>9</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>35-59   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>&gt;=60</b></font></td>
+<td><font size="4"><b>3768</b></font></td>
+<td><font size="4"><b>493</b></font></td>
+<td><font size="4"><b>2281</b></font></td>
+<td><font size="4"><b>273</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>3</b></font></td>
+<td><font size="4"><b>22</b></font></td>
+<td><font size="4"><b>1</b></font></td>
+</tr>
+</table>
+<div style="page-break-before:always"> </div>
+<table border="1" cellspacing="0" class="t1" width="100%">
+<tr align="center" bgcolor="#baedb1">
+<td rowspan="2"><font size="4"><b>	Age Group	</b></font></td>
+<td colspan="2"><font size="4"><b>	Graduate or More	</b></font></td>
+<td colspan="2"><font size="4"><b>	Unclassified	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#baedb1" height="1">
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+<td><font size="4"><b>	Male	</b></font></td>
+<td><font size="4"><b>	Female	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>20</b></font></td>
+<td><font size="4"><b>21</b></font></td>
+<td><font size="4"><b>22</b></font></td>
+<td><font size="4"><b>23</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>	 All Age	</b></font></td>
+<td><font size="4"><b>55874</b></font></td>
+<td><font size="4"><b>27196</b></font></td>
+<td><font size="4"><b>1856</b></font></td>
+<td><font size="4"><b>1350</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>00-06   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>07-09   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>219</b></font></td>
+<td><font size="4"><b>203</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>10-14   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>284</b></font></td>
+<td><font size="4"><b>240</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>15-19   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>245</b></font></td>
+<td><font size="4"><b>191</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>20-24   </b></font></td>
+<td><font size="4"><b>14200</b></font></td>
+<td><font size="4"><b>10422</b></font></td>
+<td><font size="4"><b>166</b></font></td>
+<td><font size="4"><b>122</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>25-29   </b></font></td>
+<td><font size="4"><b>10967</b></font></td>
+<td><font size="4"><b>6825</b></font></td>
+<td><font size="4"><b>142</b></font></td>
+<td><font size="4"><b>102</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>30-34   </b></font></td>
+<td><font size="4"><b>6999</b></font></td>
+<td><font size="4"><b>3694</b></font></td>
+<td><font size="4"><b>138</b></font></td>
+<td><font size="4"><b>85</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>35-59   </b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>0</b></font></td>
+<td><font size="4"><b>408</b></font></td>
+<td><font size="4"><b>270</b></font></td>
+</tr>
+<tr align="center" bgcolor="white" height="1">
+<td><font size="4"><b>&gt;=60</b></font></td>
+<td><font size="4"><b>1267</b></font></td>
+<td><font size="4"><b>231</b></font></td>
+<td><font size="4"><b>75</b></font></td>
+<td><font size="4"><b>31</b></font></td>
+</tr>
+</table>
+</td></tr></form></table>
+<script type="text/javascript">
+		function ExportToExcel(type, fn, dl) {
+			var wb = XLSX.utils.book_new(); // Create a new workbook
+
+			// Iterate over each table and add its data to the workbook
+			var tables = document.querySelectorAll('table');
+			tables.forEach(function(table, index) {
+				// Check if the table should be excluded
+				if (!table.classList.contains('exclude-from-export')) {
+					var ws_name = "Sheet" + (index + 1); // Sheet name
+					var ws = XLSX.utils.table_to_sheet(table); // Convert table to worksheet
+					XLSX.utils.book_append_sheet(wb, ws, ws_name); // Append worksheet to workbook
+				}
+			});
+
+			// Save the workbook as Excel file
+			return XLSX.writeFile(wb, fn
+					|| ('exported_data.' + (type || 'xlsx')));
+		}
+	</script>
+</body>
+</html>

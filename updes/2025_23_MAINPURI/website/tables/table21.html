@@ -1,0 +1,589 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Table 21 Report</title>
+<script src="../assets/tbl.js" type="text/javascript"></script>
+<style>
+  @media print {
+    input[type="button"] {
+        display: none;
+    }
+      
+    /*   td, th {
+    width: auto;
+    word-break: break-word;
+}  */
+
+
+</style>
+</head>
+<script type="text/javascript">
+
+function showDiv() {
+	   document.getElementById('welcomeDiv').style.display = "block";
+	   document.getElementById('welcomeDiv1').style.display = "NONE";
+	   window.print();
+	   document.getElementById('welcomeDiv1').style.display = "block";
+	   document.getElementById('welcomeDiv').style.display = "NONE";
+	    
+	}
+ 
+
+</script>
+<body background="../assets/backgr1.gif">
+<div id="welcomeDiv1">
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td align="center">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: #4273FF;
+    text-align: center;
+    padding: 10px 2px;
+    text-decoration: none;
+}
+li a:hover {
+	color: white;
+    background-color: #42ACDF;
+}
+</style>
+<div style="height:7px;background-color:  #0e20b2"></div>
+<table align="center" bgcolor="#00FF00" class="exclude-from-export" width="100%">
+<tr>
+<td bgcolor="white" width="13%">    
+            <img alt="uplogo" height="100px" src="../assets/UPlogo1.png" width="100px"/>
+</td>
+<td align="center" bgcolor="white" width="65%">
+<span style="font-size:52px; color:#381399; font-weight: bold;">	Spider	</span>
+<br/>
+<span style="font-size:30px;color:#1372a5;">( 	Statistical Journal Internet Based Data Entry and Retrieval System	 )</span>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Hpage1.jsp"><span style="font-size:42px;">🏠</span><span style="font-size:16px;"><br/><br/>Home</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/aboutus.jsp"><span style="font-size:42px;">📰</span><span style="font-size:16px;"><br/><br/>About Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spider/contactus.jsp"><span style="font-size:42px;">📠</span><span style="font-size:16px;"><br/><br/>Contact Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<div align="right">
+<button id="toggleLang">
+                    हिंदी
+                </button>
+</div>
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Feedback.jsp" target="_blank"><span style="font-size:28px;">📝</span><span style="font-size:16px;"><br/><br/>Feedback</span></a></li></ul>
+</td>
+</tr>
+</table>
+<div style="height:7px;background-color:  #172598"></div>
+
+</td>
+</tr>
+<tr align="center"><td align="center">
+<table align="center" cellspacing="0" class="exclude-from-export" width="100%">
+<tr bgcolor="#8080ff">
+<td align="center"><font color="white" size="5"><b>
+                          	Agriculture	</b></font></td>
+<td align="right"><input name="answer" onclick="showDiv()" src="images/print.png" style="height: 39px; " type="image" value="Print"/></td>
+</tr>
+</table></td>
+</tr>
+<tr align="center">
+<td>
+<table class="exclude-from-export" width="100%">
+<tr>
+<td><font face="Mangal" size="4"><b>	District	    : </b></font><font color="blue" size="4"><b>MAINPURI</b></font></td>
+<td></td>
+<td></td>
+<td></td>
+<td><font size="4"><b>	Year	 : </b></font><font color="blue" size="4"><b>2024-25</b></font></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id="welcomeDiv" style="display:none;">
+<table align="center" class="exclude-from-export" width="100%">
+<tr align="center">
+<td align="center" bgcolor="#8080ff"><font size="5"><b>	Agriculture		</b></font></td>
+</tr>
+</table>
+</div>
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td><font size="4"><b>	Table	 21 : </b></font><font color="blue" size="4"><b>	Production of crops in the district (Metric Tonnes)	  </b></font></td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<input onclick="ExportToExcel('xlsx', 'तालिका 21 :.xlsx', true)" style="font-weight: bold; color: blue; margin-left: 1370px; margin-bottom: -25px;" type="button" value="Export Into Excel"/>
+<tr>
+<td>
+<table align="center" class="exclude-from-export" height="100%" width="100%">
+<form action="/spiderreports/getGenralNews.action" id="getGenralNews" method="post" name="getGenralNews">
+<tr align="center">
+<td>
+<table border="1" cellspacing="0" class="t1" id="fst" width="100%">
+<thead>
+<tr align="center" bgcolor="#baedb1">
+<td width="5%"><font size="3"><b>	Serial Number	</b></font></td>
+<td width="30%"><font size="3"><b>	Crop's Name	</b></font></td>
+<td width="15%"><font size="3"><b>2021-22</b></font></td>
+<td width="15%"><font size="3"><b>2022-23</b></font></td>
+<td width="15%"><font size="3"><b>2023-24</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="3"><b>1</b></font></td>
+<td><font size="3"><b>2</b></font></td>
+<td><font size="3"><b>3</b></font></td>
+<td><font size="3"><b>4</b></font></td>
+<td><font size="3"><b>5</b></font></td>
+</tr>
+</thead>
+<tr align="center" bgcolor="#d9f5d8">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b></b></font></td>
+<td align="center" bgcolor="#d6d6ad"><font size="3"><b>	Cereals	</b></font></td>
+<td align="center" colspan="3">
+</td></tr>
+<tr align="center" bgcolor="#d9f5d8">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>1</b></font></td>
+<td align="center" bgcolor="#e1e1c4"><font size="3"><b>	Rice	</b></font></td>
+<td align="center" colspan="3">
+</td></tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(A)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Kharif	</b></font></td>
+<td><font size="3">167616</font></td>
+<td><font size="3">167616</font></td>
+<td><font size="3">195418</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(B)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Zayad	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">184</font></td>
+</tr>
+<tr align="center" bgcolor="#ffceff">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#bbffbb"><font size="3"><b>	Total	 	Rice	</b></font></td>
+<td><font size="3">167616</font></td>
+<td><font size="3">167616</font></td>
+<td><font size="3">195602</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>2</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Wheat	</b></font></td>
+<td><font size="3">581146</font></td>
+<td><font size="3">581146</font></td>
+<td><font size="3">692683</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>3</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Barley	</b></font></td>
+<td><font size="3">9254</font></td>
+<td><font size="3">9254</font></td>
+<td><font size="3">14334</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>4</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Juar	</b></font></td>
+<td><font size="3">472</font></td>
+<td><font size="3">472</font></td>
+<td><font size="3">779</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>5</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Bajra	</b></font></td>
+<td><font size="3">43552</font></td>
+<td><font size="3">43552</font></td>
+<td><font size="3">52992</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>6</b></font></td>
+<td align="center" bgcolor="#e1e1c4"><font size="3"><b>	Maize	</b></font></td>
+<td align="center" bgcolor="#d9f5d8" colspan="3"></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(A)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Kharif	</b></font></td>
+<td><font size="3">132436</font></td>
+<td><font size="3">132436</font></td>
+<td><font size="3">180892</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(B)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Zayad	</b></font></td>
+<td><font size="3">1892</font></td>
+<td><font size="3">1892</font></td>
+<td><font size="3">32145</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(C)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b> 	Rabi	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">1975</font></td>
+</tr>
+<tr align="center" bgcolor="#ffceff">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#bbffbb"><font size="3"><b>	Total	 	Maize	</b></font></td>
+<td><font size="3">134328</font></td>
+<td><font size="3">134328</font></td>
+<td><font size="3">215012</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>7</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Maduwa	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>8</b></font></td>
+<td align="center" bgcolor="#e1e1c4"><font size="3"><b>	Sawa	</b></font></td>
+<td align="center" bgcolor="#d9f5d8" colspan="3"></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(A)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Kharif	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(B)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Zayad	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="#ffceff">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#bbffbb"><font size="3"><b>	Total	 	Sawa	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>9</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Kodo	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>10</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	kakun	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>11</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Kutki	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="#ffceff">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#e1e1c4"><font size="3"><b>	Total	 	Cereals	</b></font></td>
+<td><font size="3">936368</font></td>
+<td><font size="3">936368</font></td>
+<td><font size="3">1171402</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>12</b></font></td>
+<td align="center" bgcolor="#d6d6ad"><font size="3"><b>	Total Pulses	</b></font></td>
+<td bgcolor="#d9f5d8" colspan="3"></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>12</b></font></td>
+<td align="center" bgcolor="#e1e1c4"><font size="3"><b>	Urd	</b></font></td>
+<td bgcolor="#d9f5d8" colspan="3"></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(A)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Kharif	</b></font></td>
+<td><font size="3">254</font></td>
+<td><font size="3">254</font></td>
+<td><font size="3">447</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(B)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Zayad	</b></font></td>
+<td><font size="3">1265</font></td>
+<td><font size="3">1265</font></td>
+<td><font size="3">1653</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#bbffbb"><font size="3"><b>	Total	 	Urd	</b></font></td>
+<td><font size="3">1519</font></td>
+<td><font size="3">1519</font></td>
+<td><font size="3">2100</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>13</b></font></td>
+<td align="center" bgcolor="#e1e1c4" colspan="1"><font size="3"><b>	Moong	</b></font></td>
+<td bgcolor="#d9f5d8" colspan="3"></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(A)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Kharif	</b></font></td>
+<td><font size="3">76</font></td>
+<td><font size="3">76</font></td>
+<td><font size="3">97</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>	(B)	</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Zayad	</b></font></td>
+<td><font size="3">3281</font></td>
+<td><font size="3">3281</font></td>
+<td><font size="3">3036</font></td>
+</tr>
+<tr align="center" bgcolor="#ffceff">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#bbffbb"><font size="3"><b>	Total	 	Moong	</b></font></td>
+<td><font size="3">3357</font></td>
+<td><font size="3">3357</font></td>
+<td><font size="3">3133</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>14</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Lentils	</b></font></td>
+<td><font size="3">139</font></td>
+<td><font size="3">139</font></td>
+<td><font size="3">333</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>15</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Gram	</b></font></td>
+<td><font size="3">3136</font></td>
+<td><font size="3">3136</font></td>
+<td><font size="3">2299</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>16</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Pea	</b></font></td>
+<td><font size="3">4239</font></td>
+<td><font size="3">4239</font></td>
+<td><font size="3">4375</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>17</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Pigeon pea	</b></font></td>
+<td><font size="3">1293</font></td>
+<td><font size="3">1293</font></td>
+<td><font size="3">1511</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>18</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Moth	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="#ffceff">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#9fff9f"><font size="3"><b>	Total Pulses	</b></font></td>
+<td><font size="3">13683</font></td>
+<td><font size="3">13683</font></td>
+<td><font size="3">13751</font></td>
+</tr>
+<tr align="center" bgcolor="#9fff9f">
+<td align="center"><font size="3"></font></td>
+<td align="center" bgcolor="#6abd96"><font size="3"><b>	Total Food Grains	 (	Total Cereals	 + 	Total Pulses	 )</b></font></td>
+<td><font size="3">950051</font></td>
+<td><font size="3">950051</font></td>
+<td><font size="3">1185153</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b></b></font></td>
+<td align="center" bgcolor="#d6d6ad" colspan="1"><font size="3"><b>	Oilseed	</b></font></td>
+<td bgcolor="#d9f5d8" colspan="3"></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>19</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Lahi / Mustard	</b></font></td>
+<td><font size="3">13543</font></td>
+<td><font size="3">13543</font></td>
+<td><font size="3">60354</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>20</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Linseed	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>21</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Till(Pure)	</b></font></td>
+<td><font size="3">19</font></td>
+<td><font size="3">19</font></td>
+<td><font size="3">196</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>22</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Castor	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>23</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Peanuts	</b></font></td>
+<td><font size="3">3202</font></td>
+<td><font size="3">3202</font></td>
+<td><font size="3">3486</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>24</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Sunflower	</b></font></td>
+<td><font size="3">15</font></td>
+<td><font size="3">15</font></td>
+<td><font size="3">89</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>25</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Soyabeans	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="#ffceff">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#d6d6ad"><font size="3"><b>	Total Oilseeds	</b></font></td>
+<td><font size="3">16779</font></td>
+<td><font size="3">16779</font></td>
+<td><font size="3">53863</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"></font></td>
+<td align="center" bgcolor="#ceffe7"><font size="3"><b>	Other	 	Crops	</b></font></td>
+<td bgcolor="#d9f5d8" colspan="3"></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>26</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Sugarcane	</b></font></td>
+<td><font size="3">23925</font></td>
+<td><font size="3">23925</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>27</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Potato	</b></font></td>
+<td><font size="3">388249</font></td>
+<td><font size="3">388249</font></td>
+<td><font size="3">1936326</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>28</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Tobacco	</b></font></td>
+<td><font size="3">9</font></td>
+<td><font size="3">9</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>29</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Jute	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>30</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Cotton	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>31</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Sunn Hemp	</b></font></td>
+<td><font size="3">3</font></td>
+<td><font size="3">3</font></td>
+<td><font size="3">28</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>32</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Turmeric	</b></font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+<td><font size="3">0</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3"><b>33</b></font></td>
+<td align="center" bgcolor="#d9f5d8"><font size="3"><b>	Mint	</b></font></td>
+<td><font size="3"></font></td>
+<td><font size="3"></font></td>
+<td><font size="3">0</font></td>
+</tr>
+<!-- **************************************   added by hny fr desc *************************************************** -->
+<!-- **************************************end *************************************************** -->
+</table>
+</td>
+</tr>
+<tr>
+<td height="50px"></td>
+</tr>
+<tr align="center">
+<td align="center">
+<table align="center" class="exclude-from-export" width="80%">
+<tr align="center">
+<td><font size="5"><b>	Source	 :-  
+ 	   			</b></font></td><td><font size="4"><b>1. 	Land Records Officer	, </b></font></td>
+<td><font size="4"><b>2. 	Director, Agricultural Statistics and Crop Insurance, Uttar Pradesh	 </b></font></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="50px"></td>
+</tr>
+</form>
+<script type="text/javascript">
+		function ExportToExcel(type, fn, dl) {
+			var wb = XLSX.utils.book_new(); // Create a new workbook
+
+			// Iterate over each table and add its data to the workbook
+			var tables = document.querySelectorAll('table');
+			tables.forEach(function(table, index) {
+				// Check if the table should be excluded
+				if (!table.classList.contains('exclude-from-export')) {
+					var ws_name = "Sheet" + (index + 1); // Sheet name
+					var ws = XLSX.utils.table_to_sheet(table); // Convert table to worksheet
+					XLSX.utils.book_append_sheet(wb, ws, ws_name); // Append worksheet to workbook
+				}
+			});
+
+			// Save the workbook as Excel file
+			return XLSX.writeFile(wb, fn
+					|| ('exported_data.' + (type || 'xlsx')));
+		}
+	</script>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -216,14 +216,50 @@ def run(args) -> int:
         json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
+    # combined searchable page + PDF (resume-safe: reads saved table HTML)
+    if not args.no_combine:
+        try:
+            from .combine import build_outputs
+            build_outputs(out_root, manifest,
+                          engine=args.pdf_engine,
+                          make_pdf=not args.no_pdf)
+            _link_combined_into_index(site_root)
+        except Exception as exc:
+            log.warning("combined output step failed: %s", exc)
+
     log.info("-" * 60)
     log.info("Done. tables: %d total, %d ok, %d skipped, %d failed",
              total, ok, skipped, failed)
     log.info("Website : %s/index.html", site_root)
     log.info("Excel   : %s", excel_root)
+    log.info("Search  : %s/all-tables.html  (+ all-tables.pdf)", out_root)
     if failed:
         log.warning("Some tables failed. Re-run with --resume to retry only those.")
     return 0 if failed == 0 else 2
+
+
+def _link_combined_into_index(site_root: Path) -> None:
+    """Add a prominent 'Search all tables' banner to the mirror's index."""
+    idx = site_root / "index.html"
+    if not idx.exists():
+        return
+    html = idx.read_text(encoding="utf-8", errors="replace")
+    if "all-tables-banner" in html:
+        return
+    banner = (
+        "<div id='all-tables-banner' style='background:#172598;color:#fff;"
+        "text-align:center;padding:10px;font-size:16px'>"
+        "<a href='../all-tables.html' style='color:#fff;font-weight:bold'>"
+        "\U0001F50D Search all tables (single page)</a> &nbsp;|&nbsp; "
+        "<a href='../all-tables.pdf' style='color:#fff;font-weight:bold'>"
+        "\U0001F4C4 All tables PDF</a></div>"
+    )
+    if "<body" in html:
+        idx_pos = html.find(">", html.find("<body")) + 1
+        html = html[:idx_pos] + banner + html[idx_pos:]
+    else:
+        html = banner + html
+    idx.write_text(html, encoding="utf-8")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -257,6 +293,13 @@ def build_parser() -> argparse.ArgumentParser:
                    help="Re-fetch everything even if outputs exist")
     p.add_argument("--verify-tls", action="store_true",
                    help="Enable TLS verification (site chain is usually broken)")
+    p.add_argument("--no-combine", action="store_true",
+                   help="Skip building the combined all-tables page and PDF")
+    p.add_argument("--no-pdf", action="store_true",
+                   help="Build the combined HTML but skip the PDF")
+    p.add_argument("--pdf-engine", default="auto",
+                   choices=["auto", "chrome", "weasyprint", "wkhtmltopdf"],
+                   help="PDF renderer to use (default: auto-detect)")
     p.add_argument("-v", "--verbose", action="store_true")
     return p
 
