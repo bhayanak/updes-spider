@@ -2,7 +2,7 @@
   "year": "2025",
   "district_code": "23",
   "district": "MAINPURI",
-  "generated": "2026-08-01 18:12:42",
+  "generated": "2026-08-01 18:18:31",
   "sectors": [
     {
       "name": "General Informations",
@@ -148,8 +148,7 @@
           "url": "/spiderreports/gettable16Report.action",
           "excel": "excel/02_Area_and_Population/Table_16_Villages_classified_according_to_block_w.xlsx",
           "html": "tables/table16.html",
-          "status": "ok",
-          "rows": 16
+          "status": "skipped"
         }
       ]
     },
