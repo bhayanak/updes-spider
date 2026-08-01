@@ -1,0 +1,742 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style>
+ @media print {
+    input[type="button"] {
+        display: none;
+    }
+}
+
+</style>
+<script src="../assets/tbl.js" type="text/javascript"></script>
+</head>
+<script type="text/javascript">
+    function showDiv() {
+        // Display elements for printing
+        document.getElementById('welcomeDiv').style.display = "block";
+        document.getElementById('welcomeDiv1').style.display = "none";
+
+        // Trigger print
+        window.print();
+
+        // Revert to original state after printing
+        document.getElementById('welcomeDiv1').style.display = "block";
+        document.getElementById('welcomeDiv').style.display = "none";
+    }
+</script>
+<body background="../assets/backgr1.gif">
+<div id="welcomeDiv1">
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td align="center">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: #4273FF;
+    text-align: center;
+    padding: 10px 2px;
+    text-decoration: none;
+}
+li a:hover {
+	color: white;
+    background-color: #42ACDF;
+}
+</style>
+<div style="height:7px;background-color:  #0e20b2"></div>
+<table align="center" bgcolor="#00FF00" class="exclude-from-export" width="100%">
+<tr>
+<td bgcolor="white" width="13%">    
+            <img alt="uplogo" height="100px" src="../assets/UPlogo1.png" width="100px"/>
+</td>
+<td align="center" bgcolor="white" width="65%">
+<span style="font-size:52px; color:#381399; font-weight: bold;">	Spider	</span>
+<br/>
+<span style="font-size:30px;color:#1372a5;">( 	Statistical Journal Internet Based Data Entry and Retrieval System	 )</span>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Hpage1.jsp"><span style="font-size:42px;">🏠</span><span style="font-size:16px;"><br/><br/>Home</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/aboutus.jsp"><span style="font-size:42px;">📰</span><span style="font-size:16px;"><br/><br/>About Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spider/contactus.jsp"><span style="font-size:42px;">📠</span><span style="font-size:16px;"><br/><br/>Contact Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<div align="right">
+<button id="toggleLang">
+                    हिंदी
+                </button>
+</div>
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Feedback.jsp" target="_blank"><span style="font-size:28px;">📝</span><span style="font-size:16px;"><br/><br/>Feedback</span></a></li></ul>
+</td>
+</tr>
+</table>
+<div style="height:7px;background-color:  #172598"></div>
+
+</td>
+</tr>
+<tr align="center">
+<td align="center">
+<table align="center" cellspacing="0" class="exclude-from-export" width="100%">
+<tr bgcolor="#8080ff">
+<td align="center"><font color="white" size="5"><b>            
+							            	Agriculture	</b></font></td>
+<td align="right"><input name="answer" onclick="showDiv()" src="images/print.png" style="height: 39px;" type="image" value="Print"/></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr align="center">
+<td>
+<table class="exclude-from-export" width="100%">
+<tr>
+<td><font face="Mangal" size="4"><b>	District	
+										   :</b></font><font color="blue" size="4"><b>FARRUKHABAD</b></font></td>
+<td></td>
+<td></td>
+<td></td>
+<td><font size="4"><b>	Year	 :</b></font><font color="blue" size="4"><b>2024-25</b></font></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div id="welcomeDiv" style="display: none;">
+<table align="center" class="exclude-from-export" width="100%">
+<tr align="center">
+<td bgcolor="#8080ff"><font size="5"><b>	Agriculture	</b></font></td>
+</tr>
+</table>
+</div>
+<table align="left" class="exclude-from-export" id="printableTable" width="100%">
+<tr align="left">
+<th><font size="4"><b>	Table	 17 : </b></font><font color="blue" size="4"><b>Block-wise Land Utilisation in the district (in hect.)</b></font></th>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td>
+<table align="center" class="exclude-from-export" height="100%" width="90%">
+<form action="/spiderreports/getGenralNews.action" id="getGenralNews" method="post" name="getGenralNews">
+<tr></tr>
+<tr></tr>
+<tr align="center">
+<input onclick="ExportToExcel('xlsx', 'तालिका 24 :.xlsx', true)" style="font-weight: bold; color: blue; margin-left: 1375px; margin-bottom: 9px;" type="button" value="Export Into Excel"/>
+<table border="1" cellspacing="0" class="t1" width="100%">
+<tr align="center" bgcolor="#baedb1">
+<td width="9%"><font size="3"><b>	Year	 /
+														Block	</b></font></td>
+<td width="9%"><font size="3"><b>	Total Reporting Area	</b></font></td>
+<td width="9%"><font size="3"><b>	Forest Area	</b></font></td>
+<td width="9%"><font size="3"><b>	Cultivable Wasteland	</b></font></td>
+<td width="9%"><font size="3"><b>	Current Fallow	</b></font></td>
+<td width="9%"><font size="3"><b> 	Other Fallow	</b></font></td>
+<td width="9%"><font size="3"><b>	Barren and Uncultivable Land	</b></font></td>
+<td width="9%"><font size="3"><b>	Land for use other than agriculture	</b></font></td>
+<td width="9%"><font size="3"><b>	Pasture	</b></font></td>
+<td width="9%"><font size="3"><b>	Area of ​​gardens, trees and bushes	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="3"><b>1</b></font></td>
+<td><font size="3"><b>2</b></font></td>
+<td><font size="3"><b>3</b></font></td>
+<td><font size="3"><b>4</b></font></td>
+<td><font size="3"><b>5</b></font></td>
+<td><font size="3"><b>6</b></font></td>
+<td><font size="3"><b>7</b></font></td>
+<td><font size="3"><b>8</b></font></td>
+<td><font size="3"><b>9</b></font></td>
+<td><font size="3"><b>10</b></font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font face="Mangal" size="3">2021-22 </font></td>
+<td><font size="3">201286
+											</font></td>
+<td><font size="3">258
+											</font></td>
+<td><font size="3">5841</font>
+</td>
+<td><font size="3">1235</font>
+</td>
+<td><font size="3">120</font>
+</td>
+<td><font size="3">4948</font>
+</td>
+<td><font size="3">24863</font>
+</td>
+<td><font size="3">684</font>
+</td>
+<td><font size="3">1565</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font face="Mangal" size="3">2022-23 </font></td>
+<td><font size="3">201286
+											</font></td>
+<td><font size="3">258
+											</font></td>
+<td><font size="3">573</font>
+</td>
+<td><font size="3">1235</font>
+</td>
+<td><font size="3">120</font>
+</td>
+<td><font size="3">5048</font>
+</td>
+<td><font size="3">45448</font>
+</td>
+<td><font size="3">684</font>
+</td>
+<td><font size="3">1737</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font face="Mangal" size="3">2023-24 </font></td>
+<td><font size="3">218107
+											</font></td>
+<td><font size="3">258
+											</font></td>
+<td><font size="3">4842</font>
+</td>
+<td><font size="3">9033</font>
+</td>
+<td><font size="3">2913</font>
+</td>
+<td><font size="3">4060</font>
+</td>
+<td><font size="3">54370</font>
+</td>
+<td><font size="3">486</font>
+</td>
+<td><font size="3">430</font>
+</td>
+</tr>
+<tr>
+<td colspan="11"><font size="5">	Development Block Wise	
+													2023-24
+											</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">1. Kaimganj             </font></td>
+<td><font size="3">32251
+											</font></td>
+<td><font size="3">64
+											</font></td>
+<td><font size="3">691</font>
+</td>
+<td><font size="3">1309</font>
+</td>
+<td><font size="3">502</font>
+</td>
+<td><font size="3">603</font>
+</td>
+<td><font size="3">7707</font>
+</td>
+<td><font size="3">70</font>
+</td>
+<td><font size="3">60</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">2. Nawabganj            </font></td>
+<td><font size="3">32132
+											</font></td>
+<td><font size="3">4
+											</font></td>
+<td><font size="3">690</font>
+</td>
+<td><font size="3">1291</font>
+</td>
+<td><font size="3">501</font>
+</td>
+<td><font size="3">608</font>
+</td>
+<td><font size="3">7067</font>
+</td>
+<td><font size="3">65</font>
+</td>
+<td><font size="3">61</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">3. Shamsabad            </font></td>
+<td><font size="3">36458
+											</font></td>
+<td><font size="3">0
+											</font></td>
+<td><font size="3">685</font>
+</td>
+<td><font size="3">1420</font>
+</td>
+<td><font size="3">400</font>
+</td>
+<td><font size="3">705</font>
+</td>
+<td><font size="3">11224</font>
+</td>
+<td><font size="3">92</font>
+</td>
+<td><font size="3">65</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">4. Rajepur              </font></td>
+<td><font size="3">32199
+											</font></td>
+<td><font size="3">22
+											</font></td>
+<td><font size="3">680</font>
+</td>
+<td><font size="3">1415</font>
+</td>
+<td><font size="3">408</font>
+</td>
+<td><font size="3">608</font>
+</td>
+<td><font size="3">7067</font>
+</td>
+<td><font size="3">67</font>
+</td>
+<td><font size="3">68</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">5. Barhpura             </font></td>
+<td><font size="3">25318
+											</font></td>
+<td><font size="3">40
+											</font></td>
+<td><font size="3">675</font>
+</td>
+<td><font size="3">1297</font>
+</td>
+<td><font size="3">301</font>
+</td>
+<td><font size="3">508</font>
+</td>
+<td><font size="3">6709</font>
+</td>
+<td><font size="3">56</font>
+</td>
+<td><font size="3">52</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">6. Mohamadabad          </font></td>
+<td><font size="3">31642
+											</font></td>
+<td><font size="3">45
+											</font></td>
+<td><font size="3">915</font>
+</td>
+<td><font size="3">1570</font>
+</td>
+<td><font size="3">300</font>
+</td>
+<td><font size="3">705</font>
+</td>
+<td><font size="3">7707</font>
+</td>
+<td><font size="3">105</font>
+</td>
+<td><font size="3">48</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">7. Kamalganj            </font></td>
+<td><font size="3">28107
+											</font></td>
+<td><font size="3">83
+											</font></td>
+<td><font size="3">506</font>
+</td>
+<td><font size="3">731</font>
+</td>
+<td><font size="3">501</font>
+</td>
+<td><font size="3">323</font>
+</td>
+<td><font size="3">6889</font>
+</td>
+<td><font size="3">31</font>
+</td>
+<td><font size="3">76</font>
+</td>
+</tr>
+<tr align="center" bgcolor="#ffb062">
+<td align="center"><font size="3"><b>	Total Rural	 </b></font></td>
+<td><font size="3">218107
+											</font></td>
+<td><font size="3">258
+											</font></td>
+<td><font size="3">4842</font>
+</td>
+<td><font size="3">9033</font>
+</td>
+<td><font size="3">2913</font>
+</td>
+<td><font size="3">4060</font>
+</td>
+<td><font size="3">54370</font>
+</td>
+<td><font size="3">486</font>
+</td>
+<td><font size="3">430</font>
+</td>
+</tr>
+<tr align="center" bgcolor="#ffff00">
+<td align="center"><font size="3">	Total District	 </font></td>
+<td><font size="3">218107
+											</font></td>
+<td><font size="3">258
+											</font></td>
+<td><font size="3">4842</font>
+</td>
+<td><font size="3">9033</font>
+</td>
+<td><font size="3">2913</font>
+</td>
+<td><font size="3">4060</font>
+</td>
+<td><font size="3">54370</font>
+</td>
+<td><font size="3">486</font>
+</td>
+<td><font size="3">430</font>
+</td>
+</tr>
+</table>
+</tr>
+<div class="pb"> </div>
+<tr>
+<td height="30px"></td></tr>
+<tr align="center">
+<td>
+<div style="page-break-before:always;"> </div>
+<table border="1" cellspacing="0" class="t1" width="100%">
+<tr align="center" bgcolor="#baedb1">
+<td rowspan="2" width="9%"><font size="3"><b>	Year	
+													/ 	Block	</b></font></td>
+<td rowspan="2" width="9%"><font size="3"><b>	Net sown area	</b></font></td>
+<td rowspan="2" width="9%"><font size="3"><b>	Area sown more than once	</b></font></td>
+<td colspan="5" width="9%"><font size="3"><b>	Gross Sown Area	</b></font></td>
+<!-- <td rowspan="2" width="9%"><font size="3" ><b>गन्ने के
+						लिये तैयार
+						की गई
+						भूमि</b></font></td> -->
+<td rowspan="2" width="9%"><font size="3"><b>	Net irrigated area	</b></font></td>
+<td rowspan="2" width="9%"><font size="3"><b>	Gross Irrigated Area	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#baedb1">
+<td width="9%"><font size="3"><b>	Total	</b></font></td>
+<td width="9%"><font size="3"><b>	Rabi	 </b></font></td>
+<td width="9%"><font size="3"><b>	Kharif	</b></font></td>
+<td width="9%"><font size="3"><b>	Zayad	</b></font></td>
+<td width="9%"><font size="3"><b>	Land prepared for sugarcane	</b></font></td>
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td class="bw"><font size="3"><b>1</b></font></td>
+<td class="bw"><font size="3"><b>11</b></font></td>
+<td><font size="3"><b>12</b></font></td>
+<td><font size="3"><b>13</b></font></td>
+<td><font size="3"><b>14</b></font></td>
+<td><font size="3"><b>15</b></font></td>
+<td><font size="3"><b>16</b></font></td>
+<td><font size="3"><b>17</b></font></td>
+<td><font size="3"><b>18</b></font></td>
+<td><font size="3"><b>19</b></font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3">2021-22 </font></td>
+<td><font face="Mangal" size="3">161772 </font></td>
+<td><font size="3">82125
+											</font></td>
+<td><font size="3">243897</font>
+</td>
+<td><font size="3">137319</font></td>
+<td><font size="3">92997</font></td>
+<td><font size="3">12767</font></td>
+<td><font size="3">814</font>
+</td>
+<td><font size="3">157166</font>
+</td>
+<td><font size="3">199221</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3">2022-23 </font></td>
+<td><font face="Mangal" size="3">146183 </font></td>
+<td><font size="3">102979
+											</font></td>
+<td><font size="3">249162</font>
+</td>
+<td><font size="3">140614</font></td>
+<td><font size="3">89922</font></td>
+<td><font size="3">17806</font></td>
+<td><font size="3">820</font>
+</td>
+<td><font size="3">157166</font>
+</td>
+<td><font size="3">199221</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="center" bgcolor="#c8f1a9"><font size="3">2023-24 </font></td>
+<td><font face="Mangal" size="3">141715 </font></td>
+<td><font size="3">135267
+											</font></td>
+<td><font size="3">276982</font>
+</td>
+<td><font size="3">141715</font></td>
+<td><font size="3">98203</font></td>
+<td><font size="3">37064</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">134983</font>
+</td>
+<td><font size="3">230983</font>
+</td>
+</tr>
+<tr>
+<td colspan="11"><font size="5">	Development Block Wise	 2023-24</font></td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">1. Kaimganj             </font></td>
+<td><font size="3">21245
+											</font></td>
+<td><font size="3">18985
+											</font></td>
+<td><font size="3">40230</font>
+</td>
+<td><font size="3">21245</font></td>
+<td><font size="3">4829</font></td>
+<td><font size="3">5394</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">19250</font>
+</td>
+<td><font size="3">32998</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">2. Nawabganj            </font></td>
+<td><font size="3">21845
+											</font></td>
+<td><font size="3">18185
+											</font></td>
+<td><font size="3">40030</font>
+</td>
+<td><font size="3">21845</font></td>
+<td><font size="3">12762</font></td>
+<td><font size="3">5889</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">18990</font>
+</td>
+<td><font size="3">21997</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">3. Shamsabad            </font></td>
+<td><font size="3">21867
+											</font></td>
+<td><font size="3">18193
+											</font></td>
+<td><font size="3">40060</font>
+</td>
+<td><font size="3">21867</font></td>
+<td><font size="3">16842</font></td>
+<td><font size="3">5807</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">20844</font>
+</td>
+<td><font size="3">31909</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">4. Rajepur              </font></td>
+<td><font size="3">21864
+											</font></td>
+<td><font size="3">15990
+											</font></td>
+<td><font size="3">37854</font>
+</td>
+<td><font size="3">21864</font></td>
+<td><font size="3">13915</font></td>
+<td><font size="3">4975</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">17665</font>
+</td>
+<td><font size="3">39813</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">5. Barhpura             </font></td>
+<td><font size="3">15680
+											</font></td>
+<td><font size="3">19986
+											</font></td>
+<td><font size="3">35666</font>
+</td>
+<td><font size="3">15680</font></td>
+<td><font size="3">13242</font></td>
+<td><font size="3">3970</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">18017</font>
+</td>
+<td><font size="3">14097</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">6. Mohamadabad          </font></td>
+<td><font size="3">20247
+											</font></td>
+<td><font size="3">19945
+											</font></td>
+<td><font size="3">40192</font>
+</td>
+<td><font size="3">20247</font></td>
+<td><font size="3">24433</font></td>
+<td><font size="3">5051</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">20343</font>
+</td>
+<td><font size="3">49238</font>
+</td>
+</tr>
+<tr align="center" bgcolor="white">
+<td align="left" bgcolor="#c8f1a9"><font size="3">7. Kamalganj            </font></td>
+<td><font size="3">18967
+											</font></td>
+<td><font size="3">23983
+											</font></td>
+<td><font size="3">42950</font>
+</td>
+<td><font size="3">18967</font></td>
+<td><font size="3">12180</font></td>
+<td><font size="3">5978</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">19874</font>
+</td>
+<td><font size="3">40931</font>
+</td>
+</tr>
+<tr align="center" bgcolor="#ffb062">
+<td align="center"><font size="3">	Total Rural	 </font></td>
+<td><font size="3">141715
+											</font></td>
+<td><font size="3">135267
+											</font></td>
+<td><font size="3">276982</font>
+</td>
+<td><font size="3">141715</font></td>
+<td><font size="3">98203</font></td>
+<td><font size="3">37064</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">134983</font>
+</td>
+<td><font size="3">230983</font>
+</td>
+</tr>
+<tr align="center" bgcolor="#ffff00">
+<td align="center"><font size="3">	Total District	 </font></td>
+<td><font size="3">141715
+											</font></td>
+<td><font size="3">135267
+											</font></td>
+<td><font size="3">276982</font>
+</td>
+<td><font size="3">141715</font></td>
+<td><font size="3">98203</font></td>
+<td><font size="3">37064</font></td>
+<td><font size="3">0</font>
+</td>
+<td><font size="3">134983</font>
+</td>
+<td><font size="3">230983</font>
+</td>
+</tr>
+<!-- **************************************   added by hny fr desc *************************************************** -->
+<!-- **************************************end *************************************************** -->
+</table>
+</td>
+</tr>
+<tr align="center">
+<td align="center">
+<table align="center" class="exclude-from-export" width="80%">
+<tr align="center">
+<td><font size="4"></font></td>
+</tr>
+</table>
+<table align="center" class="exclude-from-export" width="80%">
+<tr align="center">
+<!-- // cmnted by Honey  -->
+<!-- <td ><font size="4"><b>नोट- वर्ष 2019-20 के पश्‍चात् भूमि उपयोगिता के  आंकड़े अप्राप्त होने के कारण आगामी  वर्षो के लिए पुनरावृत्ति की गई  है  | </b></font></td> -->
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="exclude-from-export" onmouseout="this.style.color='black'" onmouseover="this.style.color='red'" width="90%">
+<tr>
+<td width="25%"><font color="#800080" face="Mangal" size="4">
+<strong>      <u>	Source	 :-</u></strong>
+</font><font face="Mangal"> </font></td>
+<td width="25%"><font face="Mangal" size="4">1 .</font><strong><font face="Mangal" size="4">	Land Records Officer	</font></strong><font face="Arial">,</font><font face="Mangal" size="4"> </font></td>
+<td><font size="4"><b>2. 	Director, Agricultural Statistics and Crop Insurance, Uttar Pradesh	
+  </b></font></td>
+</tr></table>
+</td>
+</tr>
+<tr>
+<td height="50px"></td>
+</tr>
+</form>
+<script type="text/javascript">
+						function ExportToExcel(type, fn, dl) {
+							var wb = XLSX.utils.book_new(); // Create a new workbook
+
+							// Iterate over each table and add its data to the workbook
+							var tables = document.querySelectorAll('table');
+							tables.forEach(function(table, index) {
+								// Check if the table should be excluded
+								if (!table.classList
+										.contains('exclude-from-export')) {
+									var ws_name = "Sheet" + (index + 1); // Sheet name
+									var ws = XLSX.utils.table_to_sheet(table); // Convert table to worksheet
+									XLSX.utils.book_append_sheet(wb, ws,
+											ws_name); // Append worksheet to workbook
+								}
+							});
+
+							// Save the workbook as Excel file
+							return XLSX.writeFile(wb, fn
+									|| ('exported_data.' + (type || 'xlsx')));
+						}
+					</script>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>

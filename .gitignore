@@ -1,6 +1,5 @@
 .venv/
 __pycache__/
 *.pyc
-updes/
 .vscode
 .DS_Store

@@ -1,0 +1,718 @@
+{
+  "year": "2025",
+  "district_code": "34",
+  "district": "FARRUKHABAD",
+  "generated": "2026-08-01 12:22:16",
+  "sectors": [
+    {
+      "name": "General Informations",
+      "url": "/spiderreports/generalReports.jsp",
+      "tables": [
+        {
+          "table_id": "1",
+          "description": "District in one view",
+          "url": "/spiderreports/gettable1Report.action",
+          "excel": "excel/01_General_Informations/Table_1_District_in_one_view.xlsx",
+          "html": "tables/table1.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "2",
+          "description": "Table\t 2\t(A)\t : \tImportant District Indicators",
+          "url": "/spiderreports/gettable2Report.action",
+          "excel": "excel/01_General_Informations/Table_2_Table_2_A_Important_District_Indicators.xlsx",
+          "html": "tables/table2.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "3",
+          "description": "Block-wise indicators of some major items",
+          "url": "/spiderreports/gettable3Report.action",
+          "excel": "excel/01_General_Informations/Table_3_Block-wise_indicators_of_some_major_item.xlsx",
+          "html": "tables/table3.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "3B",
+          "description": "Development blocks categorized in descending order according to the indicators of information of major items in the district",
+          "url": "/spiderreports/gettable3BReport.action",
+          "excel": "excel/01_General_Informations/Table_3B_Development_blocks_categorized_in_descen.xlsx",
+          "html": "tables/table3B.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "4",
+          "description": "Some information block wise in the district",
+          "url": "/spiderreports/gettable4Report.action",
+          "excel": "excel/01_General_Informations/Table_4_Some_information_block_wise_in_the_distr.xlsx",
+          "html": "tables/table4.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "5",
+          "description": "Block wise details of inhabited villages in the district as per Census 1991/2001 and thereafter village wise basic data",
+          "url": "/spiderreports/gettable5Report.action",
+          "excel": "excel/01_General_Informations/Table_5_Block_wise_details_of_inhabited_villages.xlsx",
+          "html": "tables/table5.html",
+          "status": "skipped"
+        }
+      ]
+    },
+    {
+      "name": "Area and Population",
+      "url": "/spiderreports/areaandpopulationReports.jsp",
+      "tables": [
+        {
+          "table_id": "6",
+          "description": "Population growth of rural population in the district per 10 years",
+          "url": "/spiderreports/gettable6Report.action",
+          "excel": "excel/02_Area_and_Population/Table_6_Population_growth_of_rural_population_in.xlsx",
+          "html": "tables/table6.html",
+          "status": "ok",
+          "rows": 15
+        },
+        {
+          "table_id": "7",
+          "description": "Block wise area, residential houses and family number, population and SC/ST population in the district",
+          "url": "/spiderreports/gettable7Report.action",
+          "excel": "excel/02_Area_and_Population/Table_7_Block_wise_area_residential_houses_and_f.xlsx",
+          "html": "tables/table7.html",
+          "status": "ok",
+          "rows": 34
+        },
+        {
+          "table_id": "8",
+          "description": "Economic classification of population block wise in the district",
+          "url": "/spiderreports/gettable8Report.action",
+          "excel": "excel/02_Area_and_Population/Table_8_Economic_classification_of_population_bl.xlsx",
+          "html": "tables/table8.html",
+          "status": "ok",
+          "rows": 15
+        },
+        {
+          "table_id": "9",
+          "description": "Number of inhabited villages per decade as per block wise census in the district, population and percentage difference per decade 1901-2011",
+          "url": "/spiderreports/gettable9Report.action",
+          "excel": "excel/02_Area_and_Population/Table_9_Number_of_inhabited_villages_per_decade.xlsx",
+          "html": "tables/table9.html",
+          "status": "ok",
+          "rows": 2
+        },
+        {
+          "table_id": "10",
+          "description": "Population according to mother tongue in the district",
+          "url": "/spiderreports/gettable10Report.action",
+          "excel": "excel/02_Area_and_Population/Table_10_Population_according_to_mother_tongue_in.xlsx",
+          "html": "tables/table10.html",
+          "status": "ok",
+          "rows": 9
+        },
+        {
+          "table_id": "11",
+          "description": "Population by major religion in the district",
+          "url": "/spiderreports/gettable11Report.action",
+          "excel": "excel/02_Area_and_Population/Table_11_Population_by_major_religion_in_the_dist.xlsx",
+          "html": "tables/table11.html",
+          "status": "ok",
+          "rows": 13
+        },
+        {
+          "table_id": "12",
+          "description": "Population by age group in the district",
+          "url": "/spiderreports/gettable12Report.action",
+          "excel": "excel/02_Area_and_Population/Table_12_Population_by_age_group_in_the_district.xlsx",
+          "html": "tables/table12.html",
+          "status": "ok",
+          "rows": 18
+        },
+        {
+          "table_id": "13",
+          "description": "Number of women/men in the district by age group and marital status",
+          "url": "/spiderreports/gettable13Report.action",
+          "excel": "excel/02_Area_and_Population/Table_13_Number_of_womenmen_in_the_district_by_ag.xlsx",
+          "html": "tables/table13.html",
+          "status": "ok",
+          "rows": 18
+        },
+        {
+          "table_id": "14",
+          "description": "Number of women/men in the district by age group and educational level",
+          "url": "/spiderreports/gettable14Report.action",
+          "excel": "excel/02_Area_and_Population/Table_14_Number_of_womenmen_in_the_district_by_ag.xlsx",
+          "html": "tables/table14.html",
+          "status": "ok",
+          "rows": 39
+        },
+        {
+          "table_id": "15",
+          "description": "Development block wise literate people and literacy in the district",
+          "url": "/spiderreports/gettable15Report.action",
+          "excel": "excel/02_Area_and_Population/Table_15_Development_block_wise_literate_people_a.xlsx",
+          "html": "tables/table15.html",
+          "status": "ok",
+          "rows": 16
+        },
+        {
+          "table_id": "16",
+          "description": "Villages classified according to block wise population in the district",
+          "url": "/spiderreports/gettable16Report.action",
+          "excel": "excel/02_Area_and_Population/Table_16_Villages_classified_according_to_block_w.xlsx",
+          "html": "tables/table16.html",
+          "status": "failed",
+          "error": "table 16: exhausted 6 attempts"
+        }
+      ]
+    },
+    {
+      "name": "Agriculture",
+      "url": "/spiderreports/agricultureReports.jsp",
+      "tables": [
+        {
+          "table_id": "17",
+          "description": "Block wise land use in the district in hectares",
+          "url": "/spiderreports/gettable17Report.action",
+          "excel": "excel/03_Agriculture/Table_17_Block_wise_land_use_in_the_district_in_h.xlsx",
+          "html": "tables/table17.html",
+          "status": "ok",
+          "rows": 31
+        },
+        {
+          "table_id": "18",
+          "description": "Actual irrigated area in hectares as per source through various means in district block wise",
+          "url": "/spiderreports/gettable18Report.action",
+          "excel": "excel/03_Agriculture/Table_18_Actual_irrigated_area_in_hectares_as_per.xlsx",
+          "html": "tables/table18.html",
+          "status": "ok",
+          "rows": 18
+        },
+        {
+          "table_id": "19",
+          "description": "Area under main crops block wise in the district",
+          "url": "/spiderreports/gettable19Report.action",
+          "excel": "excel/03_Agriculture/Table_19_Area_under_main_crops_block_wise_in_the.xlsx",
+          "html": "tables/table19.html",
+          "status": "ok",
+          "rows": 16
+        },
+        {
+          "table_id": "20",
+          "description": "The average yield of crops in the district is quintal per hectare",
+          "url": "/spiderreports/gettable20Report.action",
+          "excel": "excel/03_Agriculture/Table_20_The_average_yield_of_crops_in_the_distri.xlsx",
+          "html": "tables/table20.html",
+          "status": "ok",
+          "rows": 55
+        },
+        {
+          "table_id": "21",
+          "description": "Production of crops in the district MT",
+          "url": "/spiderreports/gettable21Report.action",
+          "excel": "excel/03_Agriculture/Table_21_Production_of_crops_in_the_district_MT.xlsx",
+          "html": "tables/table21.html",
+          "status": "ok",
+          "rows": 60
+        },
+        {
+          "table_id": "22",
+          "description": "Value of crop production in the district in Rs.",
+          "url": "/spiderreports/gettable22Report.action",
+          "excel": "excel/03_Agriculture/Table_22_Value_of_crop_production_in_the_district.xlsx",
+          "html": "tables/table22.html",
+          "status": "ok",
+          "rows": 136
+        },
+        {
+          "table_id": "23",
+          "description": "Status of irrigation facilities and sources block wise in the district",
+          "url": "/spiderreports/gettable23Report.action",
+          "excel": "excel/03_Agriculture/Table_23_Status_of_irrigation_facilities_and_sour.xlsx",
+          "html": "tables/table23.html",
+          "status": "ok",
+          "rows": 16
+        },
+        {
+          "table_id": "24",
+          "description": "Size class wise number and area of ​​operational holdings in the district",
+          "url": "/spiderreports/gettable24Report.action",
+          "excel": "excel/03_Agriculture/Table_24_Size_class_wise_number_and_area_of_opera.xlsx",
+          "html": "tables/table24.html",
+          "status": "ok",
+          "rows": 30
+        },
+        {
+          "table_id": "25",
+          "description": "Production of divisional horticulture crops",
+          "url": "/spiderreports/gettable25Report.action",
+          "excel": "excel/03_Agriculture/Table_25_Production_of_divisional_horticulture_cr.xlsx",
+          "html": "tables/table25.html",
+          "status": "ok",
+          "rows": 50
+        },
+        {
+          "table_id": "26",
+          "description": "Block wise fertilizer distribution in the district in metric tonnes",
+          "url": "/spiderreports/gettable26Report.action",
+          "excel": "excel/03_Agriculture/Table_26_Block_wise_fertilizer_distribution_in_th.xlsx",
+          "html": "tables/table26.html",
+          "status": "ok",
+          "rows": 17
+        },
+        {
+          "table_id": "27",
+          "description": "Block-wise Some Main Facilities Related to Agriculture  in the district",
+          "url": "/spiderreports/gettable27Report.action",
+          "excel": "excel/03_Agriculture/Table_27_Block-wise_Some_Main_Facilities_Related.xlsx",
+          "html": "tables/table27.html",
+          "status": "ok",
+          "rows": 68
+        },
+        {
+          "table_id": "28",
+          "description": "Number and capacity of foodgrain stores in the district",
+          "url": "/spiderreports/gettable28Report.action",
+          "excel": "excel/03_Agriculture/Table_28_Number_and_capacity_of_foodgrain_stores.xlsx",
+          "html": "tables/table28.html",
+          "status": "ok",
+          "rows": 10
+        }
+      ]
+    },
+    {
+      "name": "Animal Husbandry and Fisheries",
+      "url": "/spiderreports/animalsReports.jsp",
+      "tables": [
+        {
+          "table_id": "29",
+          "description": "Block wise number of livestock, poultry etc. birds in the district",
+          "url": "/spiderreports/gettable29Report.action",
+          "excel": "excel/04_Animal_Husbandry_and_Fisheries/Table_29_Block_wise_number_of_livestock_poultry_e.xlsx",
+          "html": "tables/table29.html",
+          "status": "ok",
+          "rows": 51
+        },
+        {
+          "table_id": "30",
+          "description": "Block wise veterinary and other facilities in the district",
+          "url": "/spiderreports/gettable30Report.action",
+          "excel": "excel/04_Animal_Husbandry_and_Fisheries/Table_30_Block_wise_veterinary_and_other_faciliti.xlsx",
+          "html": "tables/table30.html",
+          "status": "ok",
+          "rows": 17
+        },
+        {
+          "table_id": "31",
+          "description": "Fisheries",
+          "url": "/spiderreports/gettable31Report.action",
+          "excel": "excel/04_Animal_Husbandry_and_Fisheries/Table_31_Fisheries.xlsx",
+          "html": "tables/table31.html",
+          "status": "ok",
+          "rows": 17
+        }
+      ]
+    },
+    {
+      "name": "Co-operatives",
+      "url": "/spiderreports/CoOperativeReport.jsp",
+      "tables": [
+        {
+          "table_id": "32",
+          "description": "Block wise primary agricultural credit cooperative societies in the district",
+          "url": "/spiderreports/gettable32Report.action",
+          "excel": "excel/05_Co-operatives/Table_32_Block_wise_primary_agricultural_credit_c.xlsx",
+          "html": "tables/table32.html",
+          "status": "ok",
+          "rows": 29
+        },
+        {
+          "table_id": "33",
+          "description": "Other cooperative societies in the district",
+          "url": "/spiderreports/gettable33Report.action",
+          "excel": "excel/05_Co-operatives/Table_33_Other_cooperative_societies_in_the_distr.xlsx",
+          "html": "tables/table33.html",
+          "status": "ok",
+          "rows": 37
+        },
+        {
+          "table_id": "34",
+          "description": "Cooperative Bank and Cooperative Agriculture and Rural Development Bank in the district",
+          "url": "/spiderreports/gettable34Report.action",
+          "excel": "excel/05_Co-operatives/Table_34_Cooperative_Bank_and_Cooperative_Agricul.xlsx",
+          "html": "tables/table34.html",
+          "status": "ok",
+          "rows": 20
+        }
+      ]
+    },
+    {
+      "name": "Industry",
+      "url": "/spiderreports/industryReports.jsp",
+      "tables": [
+        {
+          "table_id": "35",
+          "description": "Progress of industrialization in the district",
+          "url": "/spiderreports/gettable35Report.action",
+          "excel": "excel/06_Industry/Table_35_Progress_of_industrialization_in_the_dis.xlsx",
+          "html": "tables/table35.html",
+          "status": "ok",
+          "rows": 10
+        },
+        {
+          "table_id": "36",
+          "description": "Number of rural and small scale industrial units functioning under different types of institutions",
+          "url": "/spiderreports/gettable36Report.action",
+          "excel": "excel/06_Industry/Table_36_Number_of_rural_and_small_scale_industri.xlsx",
+          "html": "tables/table36.html",
+          "status": "ok",
+          "rows": 20
+        },
+        {
+          "table_id": "37",
+          "description": "From the year 2001 to 2003 | Table\t 36.1 : \tFactories, small industrial units, Khadi Village Industries units registered in the district and the people working in them",
+          "url": "/spiderreports/gettable37Report.action",
+          "excel": "excel/06_Industry/Table_37_From_the_year_2001_to_2003_Table_361_Fac.xlsx",
+          "html": "tables/table37.html",
+          "status": "ok",
+          "rows": 17
+        },
+        {
+          "table_id": "38",
+          "description": "Till the year 2003 | Table\t 37 : \tIndustrial Estate in the District",
+          "url": "/spiderreports/gettable38Report.action",
+          "excel": "excel/06_Industry/Table_38_Till_the_year_2003_Table_37_Industrial_E.xlsx",
+          "html": "tables/table38.html",
+          "status": "ok",
+          "rows": 11
+        }
+      ]
+    },
+    {
+      "name": "General Education and Social Education",
+      "url": "/spiderreports/zspsec7.jsp",
+      "tables": [
+        {
+          "table_id": "39",
+          "description": "Number of recognized educational institutions and industrial training institutes block wise in the district",
+          "url": "/spiderreports/gettable39Report.action",
+          "excel": "excel/07_General_Education_and_Social_Education/Table_39_Number_of_recognized_educational_institu.xlsx",
+          "html": "tables/table39.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "40",
+          "description": "Level-wise number of students (in number) in recognized educational institutions block-wise in the district",
+          "url": "/spiderreports/gettable40Report.action",
+          "excel": "excel/07_General_Education_and_Social_Education/Table_40_Level-wise_number_of_students_in_number.xlsx",
+          "html": "tables/table40.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "41",
+          "description": "Teachers in recognized educational institutions block wise in the district (number))",
+          "url": "/spiderreports/gettable41Report.action",
+          "excel": "excel/07_General_Education_and_Social_Education/Table_41_Teachers_in_recognized_educational_insti.xlsx",
+          "html": "tables/table41.html",
+          "status": "skipped"
+        },
+        {
+          "table_id": "42",
+          "description": "Status of social education, women and child programs in the district",
+          "url": "/spiderreports/gettable42Report.action",
+          "excel": "excel/07_General_Education_and_Social_Education/Table_42_Status_of_social_education_women_and_chi.xlsx",
+          "html": "tables/table42.html",
+          "status": "skipped"
+        }
+      ]
+    },
+    {
+      "name": "Public Health and Family Welfare",
+      "url": "/spiderreports/BasicHealthReport.jsp",
+      "tables": [
+        {
+          "table_id": "43",
+          "description": "Allopathic hospital and dispensary in the district",
+          "url": "/spiderreports/gettable43Report.action",
+          "excel": "excel/08_Public_Health_and_Family_Welfare/Table_43_Allopathic_hospital_and_dispensary_in_th.xlsx",
+          "html": "tables/table43.html",
+          "status": "ok",
+          "rows": 33
+        },
+        {
+          "table_id": "44",
+          "description": "Block wise allopathic medical service in the district",
+          "url": "/spiderreports/gettable44Report.action",
+          "excel": "excel/08_Public_Health_and_Family_Welfare/Table_44_Block_wise_allopathic_medical_service_in.xlsx",
+          "html": "tables/table44.html",
+          "status": "ok",
+          "rows": 17
+        },
+        {
+          "table_id": "45",
+          "description": "Block wise Ayurvedic, Unani and Homeopathic medical services in the district",
+          "url": "/spiderreports/gettable45Report.action",
+          "excel": "excel/08_Public_Health_and_Family_Welfare/Table_45_Block_wise_Ayurvedic_Unani_and_Homeopath.xlsx",
+          "html": "tables/table45.html",
+          "status": "ok",
+          "rows": 17
+        },
+        {
+          "table_id": "46",
+          "description": "Block wise family and mother child welfare center and sub center in the district",
+          "url": "/spiderreports/gettable46Report.action",
+          "excel": "excel/08_Public_Health_and_Family_Welfare/Table_46_Block_wise_family_and_mother_child_welfa.xlsx",
+          "html": "tables/table46.html",
+          "status": "ok",
+          "rows": 16
+        }
+      ]
+    },
+    {
+      "name": "Electricity",
+      "url": "/spiderreports/zspsec9.jsp",
+      "tables": [
+        {
+          "table_id": "47",
+          "description": "Electricity consumption in various works in the district",
+          "url": "/spiderreports/gettable47Report.action",
+          "excel": "excel/09_Electricity/Table_47_Electricity_consumption_in_various_works.xlsx",
+          "html": "tables/table47.html",
+          "status": "ok",
+          "rows": 11
+        },
+        {
+          "table_id": "48",
+          "description": "Block wise number of electricity connections in the district, electrified Scheduled Caste settlements, government tube wells and pump canals and energized private tube wells/pump sets (number)",
+          "url": "/spiderreports/gettable48Report.action",
+          "excel": "excel/09_Electricity/Table_48_Block_wise_number_of_electricity_connect.xlsx",
+          "html": "tables/table48.html",
+          "status": "ok",
+          "rows": 16
+        }
+      ]
+    },
+    {
+      "name": "Transportation and Communication",
+      "url": "/spiderreports/zspsec10.jsp",
+      "tables": [
+        {
+          "table_id": "49",
+          "description": "Length of paved roads in the district",
+          "url": "/spiderreports/gettable49Report.action",
+          "excel": "excel/10_Transportation_and_Communication/Table_49_Length_of_paved_roads_in_the_district.xlsx",
+          "html": "tables/table49.html",
+          "status": "ok",
+          "rows": 29
+        },
+        {
+          "table_id": "50",
+          "description": "Length of paved roads in Km block wise in the district",
+          "url": "/spiderreports/gettable50Report.action",
+          "excel": "excel/10_Transportation_and_Communication/Table_50_Length_of_paved_roads_in_Km_block_wise_i.xlsx",
+          "html": "tables/table50.html",
+          "status": "ok",
+          "rows": 17
+        },
+        {
+          "table_id": "51",
+          "description": "Block wise transport and communication services in the district in number",
+          "url": "/spiderreports/gettable51Report.action",
+          "excel": "excel/10_Transportation_and_Communication/Table_51_Block_wise_transport_and_communication_s.xlsx",
+          "html": "tables/table51.html",
+          "status": "ok",
+          "rows": 16
+        }
+      ]
+    },
+    {
+      "name": "Institutional Finance",
+      "url": "/spiderreports/zspsec11.jsp",
+      "tables": [
+        {
+          "table_id": "52",
+          "description": "Number of scheduled commercial bank and rural bank branches block wise in the district",
+          "url": "/spiderreports/gettable52Report.action",
+          "excel": "excel/11_Institutional_Finance/Table_52_Number_of_scheduled_commercial_bank_and.xlsx",
+          "html": "tables/table52.html",
+          "status": "ok",
+          "rows": 17
+        },
+        {
+          "table_id": "53",
+          "description": "Deposit amount and loan disbursement in commercial banks in the district in thousands",
+          "url": "/spiderreports/gettable53Report.action",
+          "excel": "excel/11_Institutional_Finance/Table_53_Deposit_amount_and_loan_disbursement_in.xlsx",
+          "html": "tables/table53.html",
+          "status": "ok",
+          "rows": 13
+        }
+      ]
+    },
+    {
+      "name": "Water Supply",
+      "url": "/spiderreports/zspsec12.jsp",
+      "tables": [
+        {
+          "table_id": "54",
+          "description": "Status of drinking water facility in villages block wise in the district",
+          "url": "/spiderreports/gettable54Report.action",
+          "excel": "excel/12_Water_Supply/Table_54_Status_of_drinking_water_facility_in_vil.xlsx",
+          "html": "tables/table54.html",
+          "status": "ok",
+          "rows": 15
+        }
+      ]
+    },
+    {
+      "name": "Panchayti Raj",
+      "url": "/spiderreports/zspsec13.jsp",
+      "tables": [
+        {
+          "table_id": "55",
+          "description": "Block-wise Nyaya Panchayat, Gram Panchayat and Panchayat Ghar in the district",
+          "url": "/spiderreports/gettable55Report.action",
+          "excel": "excel/13_Panchayti_Raj/Table_55_Block-wise_Nyaya_Panchayat_Gram_Panchaya.xlsx",
+          "html": "tables/table55.html",
+          "status": "ok",
+          "rows": 16
+        },
+        {
+          "table_id": "56",
+          "description": "Income Of Gram Panchayat",
+          "url": "/spiderreports/gettable56Report.action",
+          "excel": "excel/13_Panchayti_Raj/Table_56_Income_Of_Gram_Panchayat.xlsx",
+          "html": "tables/table56.html",
+          "status": "ok",
+          "rows": 14
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "url": "/spiderreports/zspsec14.jsp",
+      "tables": [
+        {
+          "table_id": "57",
+          "description": "Monthly rural retail price in the district",
+          "url": "/spiderreports/gettable57Report.action",
+          "excel": "excel/14_Price/Table_57_Monthly_rural_retail_price_in_the_distri.xlsx",
+          "html": "tables/table57.html",
+          "status": "ok",
+          "rows": 31
+        },
+        {
+          "table_id": "58",
+          "description": "Monthly Urban Retail Price From District Head Quarters",
+          "url": "/spiderreports/gettable58Report.action",
+          "excel": "excel/14_Price/Table_58_Monthly_Urban_Retail_Price_From_District.xlsx",
+          "html": "tables/table58.html",
+          "status": "ok",
+          "rows": 31
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "url": "/spiderreports/zspsec15.jsp",
+      "tables": [
+        {
+          "table_id": "59",
+          "description": "Statistics of employees in the district",
+          "url": "/spiderreports/gettable59Report.action",
+          "excel": "excel/15_Miscellaneous/Table_59_Statistics_of_employees_in_the_district.xlsx",
+          "html": "tables/table59.html",
+          "status": "ok",
+          "rows": 10
+        },
+        {
+          "table_id": "60",
+          "description": "Employment status in the district",
+          "url": "/spiderreports/gettable60Report.action",
+          "excel": "excel/15_Miscellaneous/Table_60_Employment_status_in_the_district.xlsx",
+          "html": "tables/table60.html",
+          "status": "ok",
+          "rows": 10
+        },
+        {
+          "table_id": "61",
+          "description": "Status of various skill training programs in the district under Skill Development Mission",
+          "url": "/spiderreports/gettable61Report.action",
+          "excel": "excel/15_Miscellaneous/Table_61_Status_of_various_skill_training_program.xlsx",
+          "html": "tables/table61.html",
+          "status": "ok",
+          "rows": 5
+        },
+        {
+          "table_id": "62",
+          "description": "Scholarships for General Category, Other Backward Classes, Minority Category and Scheduled Caste/Tribe students",
+          "url": "/spiderreports/gettable62Report.action",
+          "excel": "excel/15_Miscellaneous/Table_62_Scholarships_for_General_Category_Other.xlsx",
+          "html": "tables/table62.html",
+          "status": "ok",
+          "rows": 17
+        }
+      ]
+    },
+    {
+      "name": "Facilities Available In the Urban Area",
+      "url": "/spiderreports/urbanfacility.jsp",
+      "tables": [
+        {
+          "table_id": "63",
+          "description": "Number of facilities available in urban areas in the district",
+          "url": "/spiderreports/gettable63Report.action",
+          "excel": "excel/16_Facilities_Available_In_the_Urban_Area/Table_63_Number_of_facilities_available_in_urban.xlsx",
+          "html": "tables/table63.html",
+          "status": "ok",
+          "rows": 178
+        }
+      ]
+    },
+    {
+      "name": "Details of villages according to distance from various social facilities",
+      "url": "/spiderreports/villdescription.jsp",
+      "tables": [
+        {
+          "table_id": "64",
+          "description": "Details of villages according to distance from various social facilities",
+          "url": "/spiderreports/gettable64Report.action",
+          "excel": "excel/17_Details_of_villages_according_to_distance_from_various_socia/Table_64_Details_of_villages_according_to_distanc.xlsx",
+          "html": "tables/table64.html",
+          "status": "ok",
+          "rows": 390
+        }
+      ]
+    },
+    {
+      "name": "Guest House and Printing Press",
+      "url": "/spiderreports/guesthousereport.jsp",
+      "tables": [
+        {
+          "table_id": "65",
+          "description": "Till the year 2003: Development blocks categorized in descending order according to the indicators of major items of information",
+          "url": "/spiderreports/gettable65Report.action",
+          "excel": "excel/18_Guest_House_and_Printing_Press/Table_65_Till_the_year_2003_Development_blocks_ca.xlsx",
+          "html": "tables/table65.html",
+          "status": "ok",
+          "rows": 13
+        },
+        {
+          "table_id": "66",
+          "description": "Till the year 2003: Number of rest houses and dak bungalows in the district",
+          "url": "/spiderreports/gettable66Report.action",
+          "excel": "excel/18_Guest_House_and_Printing_Press/Table_66_Till_the_year_2003_Number_of_rest_houses.xlsx",
+          "html": "tables/table66.html",
+          "status": "ok",
+          "rows": 7
+        },
+        {
+          "table_id": "67",
+          "description": "Till the year 2003: Number of printing presses in the district",
+          "url": "/spiderreports/gettable67Report.action",
+          "excel": "excel/18_Guest_House_and_Printing_Press/Table_67_Till_the_year_2003_Number_of_printing_pr.xlsx",
+          "html": "tables/table67.html",
+          "status": "ok",
+          "rows": 11
+        }
+      ]
+    }
+  ]
+}

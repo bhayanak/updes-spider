@@ -1,0 +1,651 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Zila Report 4</title>
+<script src="../assets/tbl.js" type="text/javascript"></script>
+<link href="../assets/style.css" rel="stylesheet" type="text/css"/>
+<style>
+  @media print {
+    input[type="button"] {
+        display: none;
+    }
+
+</style>
+</head>
+<script type="text/javascript">
+function showDiv() {
+   document.getElementById('welcomeDiv').style.display = "block";
+   document.getElementById('welcomeDiv1').style.display = "NONE";
+   window.print();
+   document.getElementById('welcomeDiv1').style.display = "block";
+   document.getElementById('welcomeDiv').style.display = "NONE";
+    
+}
+
+</script>
+<body background="../assets/backgr1.gif">
+<div style="page-break-after: always">
+<div id="welcomeDiv1">
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td align="center">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: #4273FF;
+    text-align: center;
+    padding: 10px 2px;
+    text-decoration: none;
+}
+li a:hover {
+	color: white;
+    background-color: #42ACDF;
+}
+</style>
+<div style="height:7px;background-color:  #0e20b2"></div>
+<table align="center" bgcolor="#00FF00" class="exclude-from-export" width="100%">
+<tr>
+<td bgcolor="white" width="13%">    
+            <img alt="uplogo" height="100px" src="../assets/UPlogo1.png" width="100px"/>
+</td>
+<td align="center" bgcolor="white" width="65%">
+<span style="font-size:52px; color:#381399; font-weight: bold;">	Spider	</span>
+<br/>
+<span style="font-size:30px;color:#1372a5;">( 	Statistical Journal Internet Based Data Entry and Retrieval System	 )</span>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Hpage1.jsp"><span style="font-size:42px;">🏠</span><span style="font-size:16px;"><br/><br/>Home</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spideradmin/aboutus.jsp"><span style="font-size:42px;">📰</span><span style="font-size:16px;"><br/><br/>About Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<ul><li><a href="https://updes.up.nic.in/spider/contactus.jsp"><span style="font-size:42px;">📠</span><span style="font-size:16px;"><br/><br/>Contact Us</span></a></li></ul>
+</td>
+<td align="center" bgcolor="white" width="7%">
+<div align="right">
+<button id="toggleLang">
+                    हिंदी
+                </button>
+</div>
+<ul><li><a href="https://updes.up.nic.in/spideradmin/Feedback.jsp" target="_blank"><span style="font-size:28px;">📝</span><span style="font-size:16px;"><br/><br/>Feedback</span></a></li></ul>
+</td>
+</tr>
+</table>
+<div style="height:7px;background-color:  #172598"></div>
+
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td>
+<table align="center" class="exclude-from-export" height="100%" width="100%">
+<form action="/spiderreports/getGenralNews.action" id="getGenralNews" method="post" name="getGenralNews">
+<!-- <tr align="center">
+									<td bgcolor="#8080ff" align="center"><font size="5"
+										color="white"><b>सामान्य सूचनायें</b></font></td>
+									<td align="right" bgcolor="#8080ff"><input type="image" name="answer" value="Print" onclick="showDiv()" src="images/print.png" style="height: 39px; "/></td>
+								</tr> -->
+<tr align="center"><td align="center">
+<table align="center" cellspacing="0" class="exclude-from-export" width="100%">
+<tr bgcolor="#8080ff">
+<td align="center"><font color="white" size="5"><b>
+                          	General Informations	</b></font></td>
+<td align="right"><input name="answer" onclick="showDiv()" src="images/print.png" style="height: 39px; " type="image" value="Print"/></td>
+</tr>
+</table></td>
+</tr>
+<tr align="center">
+<td>
+<table class="exclude-from-export" width="95%">
+<tr>
+<td><font size="4"><b>	District	</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>FARRUKHABAD</b></font></td>
+<td></td>
+<td><font size="4"><b>	Year	</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b>2024-25</b></font></td>
+</tr>
+<tr>
+<td><font size="4"><b>	Table	 4</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b> Block wise general information in the district</b></font></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</form>
+</table>
+</td></tr></table>
+</div>
+<div id="welcomeDiv" style="display: none;">
+<table align="center" class="exclude-from-export" width="100%">
+<tr align="center">
+<td align="center" bgcolor="#8080ff"><font size="5"><b>	General Informations	 </b></font></td>
+</tr>
+</table>
+<table align="center" class="exclude-from-export" width="100%">
+<tr>
+<td><font size="4"><b>	Table	 4</b></font></td>
+<td>:</td>
+<td><font color="blue" size="4"><b> Block wise general information in the district</b></font></td>
+<td></td>
+</tr>
+</table>
+</div>
+<tr></tr>
+<tr></tr>
+<tr align="center">
+<td><div class="custom-translate" id="google_translate_element" st="" yle="display: none;">
+<input onclick="ExportToExcel('xlsx', 'तालिका 4.xlsx', true)" style="font-weight: bold; color: blue; margin-left: 1390px; margin-bottom: 12px;" type="button" value="Export Into Excel"/>
+<table align="center" border="1" cellspacing="0" width="100%">
+<thead>
+<tr align="center" bgcolor="#baedb1">
+<td width="9%"><font size="4"><b>	Name Of Tehsil	 </b></font></td>
+<td width="9%"><font size="4"><b>	Name of Development Block	 </b></font></td>
+<td width="9%"><font size="4"><b>	Serial and name of the related Lok Sabha constituency	</b></font></td>
+<td width="9%"><font size="4"><b>	Serial and name of the related assembly constituency	</b></font></td>
+<td width="9%"><font size="4"><b>	Distance of development block from district headquarters (km)	</b></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+</tr>
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>2</b></font></td>
+<td><font size="4"><b>3</b></font></td>
+<td><font size="4"><b>4</b></font></td>
+<td><font size="4"><b>5</b></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- 	<td><font size="4"><b>6</b></font></td>-->
+</tr>
+</thead>
+<tr align="left" bgcolor="white">
+<td align="left"><font size="4">Kaimganj </font></td>
+<td align="left"><font size="4">Kaimganj             </font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha">40  FARRUKHABAD <!--  <br>0   <br>0   -->
+</span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4">192 KAIMGANJ</font> <!--  ################################ vidhan sbaha -->
+</td>
+<td align="center"><font size="4">44</font>
+</td>
+</tr>
+<tr align="left" bgcolor="white">
+<td align="left"><font size="4">Kaimganj </font></td>
+<td align="left"><font size="4">Nawabganj            </font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha">40  FARRUKHABAD <!--  <br>0   <br>0   -->
+</span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4">192 KAIMGANJ</font> <!--  ################################ vidhan sbaha -->
+</td>
+<td align="center"><font size="4">29</font>
+</td>
+</tr>
+<tr align="left" bgcolor="white">
+<td align="left"><font size="4">Kaimganj </font></td>
+<td align="left"><font size="4">Shamsabad            </font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha">40  FARRUKHABAD <!--  <br>0   <br>0   -->
+</span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4">192 KAIMGANJ</font> <!--  ################################ vidhan sbaha -->
+</td>
+<td align="center"><font size="4">31</font>
+</td>
+</tr>
+<tr align="left" bgcolor="white">
+<td align="left"><font size="4">Amratpur </font></td>
+<td align="left"><font size="4">Rajepur              </font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha">40  FARRUKHABAD <!--  <br>0   <br>0   -->
+</span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4">193 AMRITPUR</font> <!--  ################################ vidhan sbaha -->
+</td>
+<td align="center"><font size="4">15</font>
+</td>
+</tr>
+<tr align="left" bgcolor="white">
+<td align="left"><font size="4">Farrukhabad </font></td>
+<td align="left"><font size="4">Barhpura             </font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha">40  FARRUKHABAD <!--  <br>0   <br>0   -->
+</span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4">194 FARRUKHABAD</font> <!--  ################################ vidhan sbaha -->
+</td>
+<td align="center"><font size="4">5</font>
+</td>
+</tr>
+<tr align="left" bgcolor="white">
+<td align="left"><font size="4">Farrukhabad </font></td>
+<td align="left"><font size="4">Mohamadabad          </font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha">40  FARRUKHABAD <!--  <br>0   <br>0   -->
+</span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4">195 BHOJPUR</font> <!--  ################################ vidhan sbaha -->
+</td>
+<td align="center"><font size="4">23</font>
+</td>
+</tr>
+<tr align="left" bgcolor="white">
+<td align="left"><font size="4">Farrukhabad </font></td>
+<td align="left"><font size="4">Kamalganj            </font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha">40  FARRUKHABAD <!--  <br>0   <br>0   -->
+</span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4">195 BHOJPUR</font> <!--  ################################ vidhan sbaha -->
+</td>
+<td align="center"><font size="4">12</font>
+</td>
+</tr>
+<tr align="right" bgcolor="#FFBE33">
+<td align="center"><font size="4">	Total Rural	 </font></td>
+<td align="left"><font size="4">
+</font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha"> </span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4"></font></td>
+<td><font size="4"></font>
+</td>
+</tr>
+<tr align="right" bgcolor="#33FFE6">
+<td align="center"><font size="4">	Total Urban	 </font></td>
+<td align="left"><font size="4">
+</font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha"> </span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4"></font></td>
+<td><font size="4"></font></td>
+</tr>
+<tr align="right" bgcolor="yellow">
+<td align="center"><font size="4">	Total District	
+								</font></td>
+<td align="left"><font size="4">
+</font></td>
+<td align="left"><font size="4"><span style="font-family: Shusha"> </span></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td><font size="4"></font></td>
+<td><font size="4"></font>
+<!--  जिला मुख्यालय से विकासखण्ड की दूरी (कि. म़ी. ) --></td>
+</tr>
+</table>
+</div></td>
+</tr>
+<tr>
+<td height="50px"></td>
+</tr>
+</div>
+<!-- NEW  -->
+<form action="/spiderreports/getGenralNews.action" id="getGenralNews" method="post" name="getGenralNews">
+<tr align="center">
+<td>
+<table align="center" border="1" cellspacing="0" width="100%">
+<tr align="center" bgcolor="#baedb1">
+<td rowspan="2" width="9%"><font size="4"><b>	Name Of Tehsil	</b></font></td>
+<td rowspan="2" width="4.5%"><font size="4"><b>	Name of Development Block	 </b></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td colspan="2" width="18%"><font size="4"><b>	Movie Theater	 </b></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td colspan="3" width="18%"><font size="4"><b>	Multiplex	
+							</b></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td rowspan="2" width="4.5%"><font size="4"><b>	Police Thana	</b></font></td>
+<td rowspan="2" width="4.5%"><font size="4"><b>	Police Chauki	</b></font></td>
+<td rowspan="2" width="4.5%"><font size="4"><b>	Pink Booth	</b></font></td>
+<td colspan="2" width="18%"><font size="4"><b>	Nearest Railway Station from Block Office	</b></font></td>
+<td rowspan="2" width="9%"><font size="4"><b>	Number of Fair Price ration shops	</b></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+</tr>
+<tr align="center" bgcolor="#baedb1" height="1">
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td width="4.5%"><font size="4"><b>	Movie Theater Number	</b></font></td>
+<td width="4.5%"><font size="4"><b>	Number Of Seats	</b></font></td>
+<!-- --------------------------------------------------------------------------------------------------------------------------
+                    
+                     <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td width="4.5%"><font size="4"><b>	Number Of Multiplex	</b></font></td>
+<td width="4.5%"><font size="4"><b>	Number Of Screen	</b></font></td>
+<td width="4.5%"><font size="4"><b>	Number Of Seats	</b></font></td>
+<!-- --------------------------------------------------------------------------------------------------------------------------
+                 
+                      <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td width="4.5%"><font size="4"><b>	Name Of Railway Station	 </b></font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td width="4.5%"><font size="4"><b>	Distance(Km)	</b></font></td>
+</tr>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<tr align="center" bgcolor="#17ce1c" height="1">
+<td><font size="4"><b>1</b></font></td>
+<td><font size="4"><b>2</b></font></td>
+<td><font size="4"><b>6</b></font></td>
+<td><font size="4"><b>7</b></font></td>
+<td><font size="4"><b>8</b></font></td>
+<td><font size="4"><b>9</b></font></td>
+<td><font size="4"><b>10</b></font></td>
+<td><font size="4"><b>11</b></font></td>
+<td><font size="4"><b>12</b></font></td>
+<td><font size="4"><b>13</b></font></td>
+<td><font size="4"><b>14</b></font></td>
+<td><font size="4"><b>15</b></font></td>
+<td><font size="4"><b>16</b></font></td>
+</tr>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4">Kaimganj </font></td>
+<td align="left" bgcolor="#c8f1a9"><font size="4">Kaimganj             </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0
+									<!--  सिनेमा गृह संख्या --> </font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0 </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0</font></td>
+<!-- police thana  -->
+<!-- police chauki -->
+<td align="center"><font size="4">2
+							</font></td>
+<!--  police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">1
+								</span></font></td>
+<td align="left"><font size="4">KAIMGANJ</font>
+<!-- railway station --></td>
+<td align="center"><font size="4">0.0</font>
+<!-- railway distance in km --></td>
+<td align="center"><font size="4">106</font></td>
+<!-- saste galle ki dukan -->
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4">Kaimganj </font></td>
+<td align="left" bgcolor="#c8f1a9"><font size="4">Nawabganj            </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0
+									<!--  सिनेमा गृह संख्या --> </font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0 </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0</font></td>
+<!-- police thana  -->
+<!-- police chauki -->
+<td align="center"><font size="4">2
+							</font></td>
+<!--  police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">0
+								</span></font></td>
+<td align="left"><font size="4">SHAMSABAD</font>
+<!-- railway station --></td>
+<td align="center"><font size="4">4.0</font>
+<!-- railway distance in km --></td>
+<td align="center"><font size="4">80</font></td>
+<!-- saste galle ki dukan -->
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4">Kaimganj </font></td>
+<td align="left" bgcolor="#c8f1a9"><font size="4">Shamsabad            </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0
+									<!--  सिनेमा गृह संख्या --> </font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0 </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0</font></td>
+<!-- police thana  -->
+<!-- police chauki -->
+<td align="center"><font size="4">3
+							</font></td>
+<!--  police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">0
+								</span></font></td>
+<td align="left"><font size="4">SHAMSABAD</font>
+<!-- railway station --></td>
+<td align="center"><font size="4">10.0</font>
+<!-- railway distance in km --></td>
+<td align="center"><font size="4">112</font></td>
+<!-- saste galle ki dukan -->
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4">Amratpur </font></td>
+<td align="left" bgcolor="#c8f1a9"><font size="4">Rajepur              </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0
+									<!--  सिनेमा गृह संख्या --> </font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0 </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">2</font></td>
+<!-- police thana  -->
+<!-- police chauki -->
+<td align="center"><font size="4">2
+							</font></td>
+<!--  police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">0
+								</span></font></td>
+<td align="left"><font size="4">FARRUKHABAD</font>
+<!-- railway station --></td>
+<td align="center"><font size="4">17.0</font>
+<!-- railway distance in km --></td>
+<td align="center"><font size="4">88</font></td>
+<!-- saste galle ki dukan -->
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4">Farrukhabad </font></td>
+<td align="left" bgcolor="#c8f1a9"><font size="4">Barhpura             </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0
+									<!--  सिनेमा गृह संख्या --> </font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0 </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0</font></td>
+<!-- police thana  -->
+<!-- police chauki -->
+<td align="center"><font size="4">5
+							</font></td>
+<!--  police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">1
+								</span></font></td>
+<td align="left"><font size="4">FATEHGARH</font>
+<!-- railway station --></td>
+<td align="center"><font size="4">2.0</font>
+<!-- railway distance in km --></td>
+<td align="center"><font size="4">64</font></td>
+<!-- saste galle ki dukan -->
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4">Farrukhabad </font></td>
+<td align="left" bgcolor="#c8f1a9"><font size="4">Mohamadabad          </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0
+									<!--  सिनेमा गृह संख्या --> </font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0 </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">1</font></td>
+<!-- police thana  -->
+<!-- police chauki -->
+<td align="center"><font size="4">4
+							</font></td>
+<!--  police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">0
+								</span></font></td>
+<td align="left"><font size="4">NEEMKAROLI</font>
+<!-- railway station --></td>
+<td align="center"><font size="4">6.0</font>
+<!-- railway distance in km --></td>
+<td align="center"><font size="4">100</font></td>
+<!-- saste galle ki dukan -->
+</tr>
+<tr align="right" bgcolor="white">
+<td align="left"><font size="4">Farrukhabad </font></td>
+<td align="left" bgcolor="#c8f1a9"><font size="4">Kamalganj            </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">0
+									<!--  सिनेमा गृह संख्या --> </font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0 </font></td>
+<!-- -------------------------------------------------------------------------------------------------------------------------- -->
+<td align="center"><font size="4">1</font></td>
+<!-- police thana  -->
+<!-- police chauki -->
+<td align="center"><font size="4">4
+							</font></td>
+<!--  police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">1
+								</span></font></td>
+<td align="left"><font size="4">KAMALGANJ</font>
+<!-- railway station --></td>
+<td align="center"><font size="4">0.0</font>
+<!-- railway distance in km --></td>
+<td align="center"><font size="4">120</font></td>
+<!-- saste galle ki dukan -->
+</tr>
+<tr align="right" bgcolor="#FFBE33">
+<td align="center"><font size="4">	Total Rural	 </font></td>
+<td align="left"><font size="4">
+</font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0 </font></td>
+<td align="center"><font size="4">0
+							</font></td>
+<td align="center"><font size="4">0
+									</font></td><td align="center"><font size="4">0</font>
+</td>
+<td align="center"><font size="4">4</font></td>
+<td align="center"><font size="4">22
+							</font></td>
+<td align="center"><font size="4"><span style="font-family: Shusha">3 </span></font></td>
+<td><font size="4"></font></td>
+<td><font size="4"></font></td>
+<td align="center"><font size="4">670</font></td>
+<!--  योग ग्रामीण saste dukan -->
+</tr>
+<tr align="right" bgcolor="#33FFE6">
+<td align="center"><font size="4">	Total Urban	 </font></td>
+<td align="left"><font size="4">
+</font></td>
+<td align="center"><font size="4">1</font></td>
+<td align="center"><font size="4">336</font></td>
+<td align="center"><font size="4">0</font></td>
+<td align="center"><font size="4">0</font></td>
+<td align="center"><font size="4">0</font></td>
+<td align="center"><font size="4">11 </font></td>
+<td align="center"><font size="4">16
+							</font></td>
+<!-- योग नगरीय police chauki -->
+<td align="center"><font size="4"><span style="font-family: Shusha">4 </span></font></td>
+<td><font size="4"></font></td>
+<td><font size="4"></font></td>
+<td align="center"><font size="4">118</font></td>
+<!-- योग नगरीय saste dukan -->
+</tr>
+<tr align="right" bgcolor="yellow">
+<td align="center"><font size="4">	Total District	 </font></td>
+<td align="left"><font size="4">
+</font></td>
+<td align="center"><font size="4">1</font></td>
+<td align="center"><font size="4">336</font></td>
+<td align="center"><font size="4">0</font></td>
+<td align="center"><font size="4">0</font></td>
+<td align="center"><font size="4">0</font></td>
+<td align="center"><font size="4">15 </font></td>
+<td align="center"><font size="4">38
+							</font></td>
+<td align="center"><font size="4"><span style="font-family: Shusha">7 </span></font></td>
+<td><font size="4"></font></td>
+<td><font size="4"></font></td>
+<td align="center"><font size="4">788</font></td>
+</tr>
+<!-- **************************************   added by hny fr desc *************************************************** -->
+<!-- **************************************end *************************************************** -->
+</table>
+</td>
+</tr>
+</form>
+<table class="exclude-from-export">
+<table align="center" class="exclude-from-export">
+<tr align="center">
+<td align="center">
+<table align="center" class="exclude-from-export" width="100%">
+<tr align="left">
+<td><font size="3"><b> 	Source	 :-</b></font></td>              
+ 	   			<td><font size="3"><b>       	
+ 	   			                            1. 	District Supply Officer	 </b></font></td>
+<td><font size="3"><b> 	2. 	Superintendent of Police	</b></font> </td>
+<td><font size="3"><b> 	3. 	District Election Officer	</b></font></td>
+<td><font size="3"><b>     4. 	Deputy Commissioner/Assistant Commissioner	</b></font></td>
+<td><font size="3"><b>     5  	Entertainment Tax / State Tax Officer (Entertainment Tax)	</b></font> </td>
+<td><font size="3"><b>     6. 	Assistant Station Master	</b></font> </td>
+</tr>
+</table>
+</td></tr></table>
+<script type="text/javascript">
+		function ExportToExcel(type, fn, dl) {
+			var wb = XLSX.utils.book_new(); // Create a new workbook
+
+			// Iterate over each table and add its data to the workbook
+			var tables = document.querySelectorAll('table');
+			tables.forEach(function(table, index) {
+				// Check if the table should be excluded
+				if (!table.classList.contains('exclude-from-export')) {
+					var ws_name = "Sheet" + (index + 1); // Sheet name
+					var ws = XLSX.utils.table_to_sheet(table); // Convert table to worksheet
+					XLSX.utils.book_append_sheet(wb, ws, ws_name); // Append worksheet to workbook
+				}
+			});
+
+			// Save the workbook as Excel file
+			return XLSX.writeFile(wb, fn
+					|| ('exported_data.' + (type || 'xlsx')));
+		}
+	</script>
+</table></body>
+</html>
