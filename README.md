@@ -38,6 +38,16 @@ one workbook.
 ## Setup
 
 ```bash
+For linux:
+python3 -m venv .venv
+.\.venv\bin\activate.bat
+pip install -r requirements.txt
+
+Get data:
+python -m updes_spider --year 2025 --dist 23  --delay 1
+```
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
